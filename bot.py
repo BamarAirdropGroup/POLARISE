@@ -289,7 +289,7 @@ class Polarise:
             },
             "donate": {
                 "amount": 1,
-                "recepient": "0x1d1afc2d015963017bed1de13e4ed6c3d3ed1618",
+                "recepient": "0x115E97549E02eB1134F32E92208da1D7c6306Eca",
                 "token_address": "0x351EF49f811776a3eE26f3A1fBc202915B8f2945",
                 "contract_address": "0x639A8A05DAD556256046709317c76927b053a85D",
             },
