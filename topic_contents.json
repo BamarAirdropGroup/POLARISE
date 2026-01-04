@@ -1,0 +1,1430 @@
+{
+    "ERC-1000: The Game-Changer NFT Standard": {
+        "title": "ERC-1000: This Changes Everything for NFTs",
+        "description": "Remember when ERC-20 changed DeFi forever? ERC-1000 is about to do the same for NFTs.\n\nForget about illiquid JPEGs collecting digital dust. ERC-1000 introduces native liquidity pools, instant swaps, and fractional ownership baked right into the standard.\n\nThis isn't just another token standard—it's a complete rethinking of what NFTs can BE.\n\nWhat's your take? Will this finally solve NFT liquidity?"
+    },
+    "NFT Liquidity Crisis: The Problem We're Solving": {
+        "title": "The Dirty Secret No One Talks About: NFT Liquidity",
+        "description": "Here's a hard truth: 95% of NFTs are basically worthless because they CAN'T BE SOLD.\n\nFloor prices? Meaningless when there's zero volume.\n\nYou're not investing—you're speculating on greater fools.\n\nPolarise isn't just another platform. We're solving the fundamental flaw in the NFT market.\n\nThoughts? Have you ever been stuck with an NFT you couldn't sell?"
+    },
+    "Flash Trade Explained: Instant NFT Swaps": {
+        "title": "NFT Trading at Light Speed: Flash Trades Explained",
+        "description": "Ever tried to sell an NFT and waited days for a buyer? Those days are OVER.\n\nFlash trades = instant NFT swaps with zero slippage.\n\nIt's like Uniswap for NFTs, but faster and smarter.\n\nNo more praying for buyers. No more race to the bottom on price.\n\nGame-changing or overhyped? Let's discuss!"
+    },
+    "P-Tokens: Your NFT's Liquid Twin": {
+        "title": "Unlock Your NFT's Value Instantly with P-Tokens",
+        "description": "Your NFT is stuck in your wallet? Not anymore.\n\nP-Tokens = instant liquidity for ANY NFT.\n\n1️⃣ Wrap your NFT\n2️⃣ Get P-Tokens\n3️⃣ Trade, lend, or leverage immediately\n\nIt's like having your cake and eating it too.\n\nAnyone tried this yet? Thoughts on the risks?"
+    },
+    "100% LTV Loans: Too Good to Be True?": {
+        "title": "100% LTV on NFTs: Revolutionary or Reckless?",
+        "description": "100% loan-to-value on NFTs sounds impossible... until now.\n\nTraditional finance would call this crazy. We call it innovation.\n\nRisk? Managed by real-time price oracles and dynamic collateral ratios.\n\nThis could unlock BILLIONS in trapped NFT value.\n\nToo good to be true? Or the future of NFT finance?"
+    },
+    "Leverage in NFT Trading Without Getting Rekt": {
+        "title": "NFT Leverage: Your Fast Track to Gains (or Losses)",
+        "description": "Leverage trading NFTs = 10x your gains or 100x your losses.\n\nPolarise gives you the tools but YOU need the strategy.\n\nKey rules:\n1. Never go all-in\n2. Set stop losses\n3. Understand the asset\n\nUsed leverage before? Share your best/worst experiences!"
+    },
+    "Consignment: Get Paid Now, Sell Later": {
+        "title": "Consignment: The Smart NFT Seller's Secret Weapon",
+        "description": "Why wait months to sell your NFT when you can get paid NOW?\n\nConsignment = instant liquidity + future upside.\n\nIt's like getting a loan AND keeping ownership benefits.\n\nPerfect for:\n- Projects with long-term potential\n- Undervalued gems\n- Strategic holdings\n\nUnderrated feature or too complex for most users?"
+    },
+    "Multi-Chain Strategy: Why It Matters": {
+        "title": "Stuck on One Chain? You're Missing the Big Picture",
+        "description": "Ethereum maxis vs Solana degens vs Polygon enthusiasts...\n\nWhy choose when you can have ALL of them?\n\nMulti-chain isn't just a feature—it's a survival strategy.\n\nDifferent chains = different communities = different opportunities.\n\nAre you multi-chain yet? Which chain has surprised you most?"
+    },
+    "Beyond JPEGs: Real NFT Utility": {
+        "title": "NFTs Are More Than JPEGs (Despite What Critics Say)",
+        "description": "JPEGs were just the beginning.\n\nReal NFT utility:\n- Access tokens\n- Identity verification\n- Royalty streams\n- Governance rights\n- Real-world asset ownership\n\nThe JPEG phase was necessary... but we're moving BEYOND.\n\nWhat's the most innovative NFT use case you've seen?"
+    },
+    "Non-Standard Assets (NSA) Market Explained": {
+        "title": "NSA: The Hidden Gem of NFT Markets",
+        "description": "Forget boring standards. NSA = Non-Standard Assets.\n\nThese are the weird, unique, complex digital assets that don't fit in boxes.\n\nThink:\n- Fractionalized real estate\n- Complex financial instruments\n- Multi-asset bundles\n\nNSA market could be 10x larger than 'regular' NFTs.\n\nDiscover any cool NSAs lately?"
+    },
+    "NFT Gaming & Metaverse Integration": {
+        "title": "NFT Gaming: The Next Billion-Dollar Industry",
+        "description": "Gaming + NFTs = perfect match.\n\nFinally, TRUE digital ownership in games.\n\nCross-game assets, player-driven economies, actual value creation.\n\nForget play-to-earn. This is OWN-to-earn.\n\nWhich NFT game has impressed you most?"
+    },
+    "Digital Art vs Financial Assets: The Debate": {
+        "title": "Are NFTs Art or Financial Assets? (Answer: BOTH)",
+        "description": "The eternal debate: Art vs Finance.\n\nWhy can't they be both?\n\nGreat art has ALWAYS been a financial asset.\n\nDigital art NFTs just make it accessible and liquid.\n\nStop arguing about definitions. Start creating value.\n\nWhere do you stand on this debate?"
+    },
+    "Polarise Testnet: Your First Steps": {
+        "title": "Polarise Testnet: Play with Real Money (But Not Really)",
+        "description": "Testnets are boring... until you're playing with real concepts.\n\nPolarise testnet = risk-free experimentation with REAL features.\n\nTry everything:\n- Flash trades\n- 100% LTV loans\n- Consignment\n\nZero risk, maximum learning.\n\nAlready tested? Share your experience!"
+    },
+    "From PawnFi to Polarise: The Rebrand Story": {
+        "title": "PawnFi to Polarise: More Than Just a Name Change",
+        "description": "PawnFi was good... but Polarise is GREAT.\n\nWhy rebrand?\n1. Broader vision\n2. Beyond just 'pawn' services\n3. Complete NFT finance ecosystem\n\nSometimes you outgrow your name. We definitely did.\n\nWhat do you think of the new name/brand?"
+    },
+    "Security First: How We Protect Your Assets": {
+        "title": "NFT Security: Our #1 Priority (And It Should Be Yours Too)",
+        "description": "Lose your NFTs = lose everything.\n\nOur security approach:\n- Multi-sig everything\n- Regular audits\n- Insurance funds\n- Bug bounties\n\nBut remember: NOT YOUR KEYS, NOT YOUR NFTS.\n\nWhat security practices do you follow?"
+    },
+    "User Experience Revolution in NFT DeFi": {
+        "title": "NFT DeFi Doesn't Have to Be Complicated (Seriously)",
+        "description": "Most DeFi platforms look like airplane dashboards.\n\nOurs? Simple, intuitive, HUMAN.\n\nGood UX isn't a luxury—it's a requirement for mass adoption.\n\nIf your grandma can't use it, you're doing it wrong.\n\nBest UX you've seen in DeFi?"
+    },
+    "The NFT Market: Dead or Just Getting Started?": {
+        "title": "NFT Market Report: Far From Dead, Just Getting Interesting",
+        "description": "Headlines say NFTs are dead. Data says otherwise.\n\nWhat's changing:\n- Less speculation, more utility\n- Institutional interest growing\n- Real-world use cases emerging\n\nThe 'easy money' phase is over. The REAL phase is just beginning.\n\nBullish or bearish on NFTs?"
+    },
+    "DeFi + NFTs: Why It Took So Long": {
+        "title": "DeFi + NFTs: The Marriage That Should Have Happened Years Ago",
+        "description": "Why did it take so long to combine DeFi and NFTs?\n\nTechnical challenges:\n- Non-fungible vs fungible\n- Valuation problems\n- Liquidity issues\n\nBut the wait was worth it. The synergy is incredible.\n\nWhy do you think it took this long?"
+    },
+    "Institutional Money & NFT Liquidity": {
+        "title": "Institutional Money Is Coming to NFTs (And It Changes Everything)",
+        "description": "When institutions enter NFTs, liquidity problems disappear.\n\nBut there's a catch: They need infrastructure.\n\nThat's where we come in.\n\nInstitutional-grade tools for institutional money.\n\nGood or bad for the space?"
+    },
+    "Web3's Biggest Lie: You Own Your Assets": {
+        "title": "The Hard Truth: You Don't Really 'Own' Your Web3 Assets",
+        "description": "Here's an unpopular truth: Full ownership in Web3 is a myth.\n\nReality:\n- Protocol risk\n- Smart contract risk\n- Centralized exchange risk\n- Regulatory risk\n\nTrue ownership = understanding AND managing these risks.\n\nControversial take or hard truth?"
+    },
+    "NFT Floor Price Dynamics Explained": {
+        "title": "Floor Prices Are Mostly Meaningless (Here's Why)",
+        "description": "Obsessing over floor prices? You're missing the point.\n\nFloor price ≠ liquidity\nFloor price ≠ demand\nFloor price ≠ value\n\nIt's just ONE metric, and often the least important one.\n\nWhat metrics do YOU actually watch?"
+    },
+    "Volatility: Friend or Foe in NFT Markets?": {
+        "title": "NFT Volatility: Your Best Friend or Worst Enemy?",
+        "description": "Volatility = risk = opportunity.\n\nThe key isn't avoiding volatility—it's USING it.\n\nBuy when there's blood in the streets. Sell when there's hype.\n\nEasier said than done, obviously.\n\nHow do you handle NFT volatility?"
+    },
+    "The Liquidity Premium: Why It Matters": {
+        "title": "Liquidity Premium: The Most Important Concept in NFT Investing",
+        "description": "Liquid assets trade at a PREMIUM.\n\nIlliquid assets = discount.\n\nThe liquidity premium can be 50%+ for NFTs.\n\nTranslation: Your NFT is worth LESS if you can't sell it easily.\n\nAre you factoring liquidity into your NFT buys?"
+    },
+    "Market Cycles & Timing Your NFT Strategy": {
+        "title": "NFT Market Cycles: When to Buy, When to Sell, When to HODL",
+        "description": "Market cycles exist. Ignore them at your peril.\n\nGeneral rule:\n- Buy in bear markets\n- Sell in bull markets\n- Build in between\n\nSimple in theory. Hard in practice.\n\nWhat phase do you think we're in now?"
+    },
+    "NFT Liquidity 101: A Beginner's Guide": {
+        "title": "NFT Liquidity for Beginners (No Jargon, I Promise)",
+        "description": "New to NFTs? Confused by 'liquidity' talk?\n\nSimple analogy:\nLiquidity = how easily you can buy/sell something.\n\nHigh liquidity = easy to trade\nLow liquidity = hard to trade\n\nThat's it. Start there.\n\nWhat confused you most when starting with NFTs?"
+    },
+    "Smart Contracts Demystified for Normies": {
+        "title": "Smart Contracts Aren't That Smart (And That's Okay)",
+        "description": "Smart contracts = digital vending machines.\n\nPut something in → Get something out.\n\nNo magic. No AI. Just code doing what it's told.\n\nThe 'smart' part is they execute automatically.\n\nStill confused? Ask me anything!"
+    },
+    "Tokenomics: The $PFT Guide": {
+        "title": "$PFT Tokenomics: More Than Just Another Governance Token",
+        "description": "$PFT isn't just for voting (though you can do that too).\n\nReal utility:\n- Fee discounts\n- Staking rewards\n- Protocol incentives\n- Governance rights\n\nTokenomics matter. Ours are designed for LONG-TERM growth.\n\nWhat makes good tokenomics in your view?"
+    },
+    "Risk Management for NFT Holders": {
+        "title": "NFT Risk Management: Don't Learn This the Hard Way",
+        "description": "NFT losses hurt more than crypto losses. Here's how to avoid them:\n\n1. Diversify (yes, even with NFTs)\n2. Never invest more than you can lose\n3. Have an exit strategy\n4. Understand what you're buying\n\nWhat's your #1 risk management rule?"
+    },
+    "The Next Evolution of NFTs": {
+        "title": "The Next NFT Evolution: What Comes After JPEGs?",
+        "description": "We're at NFT 2.0. What does 3.0 look like?\n\nMy predictions:\n- Dynamic NFTs\n- AI-generated assets\n- Cross-chain composability\n- Real-world integration\n\nToo optimistic? What's YOUR prediction?"
+    },
+    "Building the Future of Digital Ownership": {
+        "title": "Digital Ownership: The Future We're Building Together",
+        "description": "Digital ownership isn't just about NFTs.\n\nIt's about control, rights, and value in the digital world.\n\nWe're building tools for THAT future.\n\nNot just trading cards. Not just art.\n\nThe foundation of digital property rights.\n\nWhat does digital ownership mean to YOU?"
+    },
+    "OpenSea is Dead (And That's Good)": {
+        "title": "OpenSea's Decline: Natural Evolution or Failure?",
+        "description": "OpenSea dominated... until it didn't.\n\nWhat happened?\n1. Complacency\n2. High fees\n3. Stagnant innovation\n4. Competition\n\nTheir decline creates SPACE for innovation.\n\nGood for the ecosystem overall.\n\nRIP OpenSea or too early to call?"
+    },
+    "Why Most NFT Projects Deserve to Fail": {
+        "title": "Hard Truth: 99% of NFT Projects SHOULD Fail",
+        "description": "Not every project deserves to succeed.\n\nMany are:\n- Cash grabs\n- Copycats\n- No utility\n- Bad teams\n\nFailure isn't bad—it's NECESSARY for a healthy ecosystem.\n\nSurvival of the fittest applies to NFTs too.\n\nAgree or too harsh?"
+    },
+    "The Truth About NFT Communities": {
+        "title": "NFT 'Communities': Real Connection or Illusion?",
+        "description": "NFT communities promise connection... but often deliver hype.\n\nReal community = shared values + mutual support\nFake community = price talk + empty promises\n\nWhich ones have you found? The real deal or just noise?"
+    },
+    "Royalties Are Killing NFTs": {
+        "title": "Royalty Debate: Necessary Incentive or Growth Killer?",
+        "description": "Royalties sounded great... until they didn't.\n\nProblem: They discourage trading.\nSolution: Find better incentives.\n\nCreators deserve rewards. But not at the cost of LIQUIDITY.\n\nThere's a middle ground. We need to find it.\n\nWhere do you stand on royalties?"
+    },
+    "DAOs Don't Work (Yet)": {
+        "title": "DAO Reality Check: Great in Theory, Messy in Practice",
+        "description": "DAOs promise decentralized governance... but often deliver gridlock.\n\nCurrent problems:\n- Voter apathy\n- Whale dominance\n- Slow decisions\n- Legal uncertainty\n\nThe concept is revolutionary. The execution needs work.\n\nBeen in a DAO? Share your experience!"
+    },
+    "The Metaverse Hype Was a Lie": {
+        "title": "Metaverse Reality Check: We're Not Ready (And That's Okay)",
+        "description": "The metaverse hype peaked... then crashed.\n\nWhy?\n- Terrible UX\n- No real utility\n- Corporate takeover\n- Tech not ready\n\nThe vision is still valid. But we're years away from execution.\n\nToo pessimistic or realistic assessment?"
+    },
+    "Why I'm Bullish on NFTs But Bearish on Your Project": {
+        "title": "NFTs Are Amazing... But Your Project Probably Isn't",
+        "description": "NFT technology = revolutionary\nYour monkey JPEG project = probably not\n\nBeing bullish on NFTs doesn't mean being bullish on EVERY NFT.\n\nDiscrimination is GOOD. Be picky.\n\nWhat makes an NFT project ACTUALLY good?"
+    },
+    "The Real Reason You Can't Sell Your NFT": {
+        "title": "Can't Sell Your NFT? Here's the Real Reason",
+        "description": "It's not the market. It's not bad luck.\n\nThe reason: NOBODY WANTS IT.\n\nHarsh but true. Value = what someone will pay.\n\nIf no one's buying, your NFT isn't worth what you think.\n\nBeen there? What did you learn?"
+    },
+    "Crypto Twitter Is Ruining Crypto": {
+        "title": "CT Is Broken: How Crypto Twitter Hurts More Than Helps",
+        "description": "Crypto Twitter used to be about ideas. Now it's about:\n- Clout chasing\n- Fake alpha\n- Tribal warfare\n- Signal boosting\n\nThe noise is drowning out the signal.\n\nTime for a reset. Or am I just getting old?"
+    },
+    "If You Don't Understand Liquidity, You Don't Understand NFTs": {
+        "title": "NFT Mastery Starts with Understanding Liquidity",
+        "description": "You can know everything about art, tech, and trends...\n\nBut if you don't understand liquidity, you don't understand NFT VALUE.\n\nLiquidity = exit options = REAL value\n\nMaster this first. Everything else comes after.\n\nHow long did it take you to understand liquidity?"
+    },
+    "Fractional Ownership Native in ERC-1000": {
+        "title": "Fractional Ownership Baked In: ERC-1000 Makes It Native",
+        "description": "No more clunky wrappers or third-party protocols.\n\nERC-1000 enables fractional ownership directly in the standard.\n\nOwn 0.01% of a CryptoPunk? Done.\nAutomatic royalty splits.\nTrue democratization of rare assets.\n\nThis changes access forever.\n\nWould you fractionalize your favorite NFT?"
+    },
+    "Dynamic Metadata: Evolving NFTs": {
+        "title": "NFTs That Change Over Time: Dynamic Metadata Unlocked",
+        "description": "Static traits are boring.\n\nDynamic metadata lets NFTs evolve based on time, usage, or on-chain events.\n\nYour NFT levels up. It reacts to the market. It tells a story.\n\nThis is where real utility begins.\n\nSeen any cool dynamic NFTs yet?"
+    },
+    "Built-in Royalties Reinvented": {
+        "title": "Royalties Done Right: Flexible and Fair in ERC-1000",
+        "description": "Old royalties killed trading volume.\n\nNew approach: Optional, splittable, upgradable royalties built into the standard.\n\nCreators get paid without choking liquidity.\n\nBalance achieved at protocol level.\n\nBest royalty model you've seen?"
+    },
+    "Composable NFTs: Lego for Digital Assets": {
+        "title": "Composable NFTs: Build Anything from Anything",
+        "description": "ERC-1000 makes NFTs truly composable.\n\nCombine traits, bundle assets, nest ownership.\n\nYour sword NFT + shield NFT = new warrior set.\n\nDeFi primitives directly on composed assets.\n\nThe Lego era of NFTs is here.\n\nWhat would you build first?"
+    },
+    "Oracle-Powered Pricing in Standards": {
+        "title": "Real-Time Pricing Built In: Oracles Meet NFT Standards",
+        "description": "No more guessing NFT value.\n\nERC-1000 hooks directly to trusted oracles.\n\nInstant fair pricing for loans, swaps, derivatives.\n\nLiquidity explodes when price discovery works.\n\nWhich oracle do you trust most?"
+    },
+    "ERC-1000 vs ERC-721: The Upgrade": {
+        "title": "ERC-721 vs ERC-1000: Why It's Time to Upgrade",
+        "description": "ERC-721 was revolutionary... in 2017.\n\nERC-1000 fixes everything:\n- No native liquidity\n- No fractionalization\n- No DeFi primitives\n\nIt's not evolution. It's revolution.\n\nReady to migrate your collection?"
+    },
+    "Security Enhancements in ERC-1000": {
+        "title": "Security by Design: What ERC-1000 Gets Right",
+        "description": "Standardized hooks for pauses, blacklists, recovery.\n\nBuilt-in multi-sig patterns.\n\n audited primitives from day one.\n\nSecurity isn't an afterthought anymore.\n\nYour biggest NFT security fear?"
+    },
+    "Gas Optimization for NFT Operations": {
+        "title": "Cheap NFT Trades: Gas Optimization in ERC-1000",
+        "description": "Batch transfers, compressed metadata, optimized storage.\n\nERC-1000 cuts gas costs by up to 80%.\n\nMore trades = more liquidity = higher volumes.\n\nFinally, NFTs that don't cost a fortune to move.\n\nGas fees ever stopped you from trading?"
+    },
+    "Cross-Standard Compatibility": {
+        "title": "No More Silos: Cross-Standard NFT Compatibility",
+        "description": "ERC-1000 plays nice with ERC-721, ERC-1155, everything.\n\nBackward compatible but forward thinking.\n\nYour old NFTs work in new pools.\n\nNo forced migration pain.\n\nBest of both worlds.\n\nStill holding old standard NFTs?"
+    },
+    "Permissionless Pool Creation": {
+        "title": "Anyone Can Create a Pool: Permissionless Liquidity",
+        "description": "No gatekeepers. No approvals.\n\nCreate a liquidity pool for ANY ERC-1000 NFT in seconds.\n\nLong-tail assets finally get markets.\n\nTrue free market for digital assets.\n\nWhat obscure NFT would you add liquidity to?"
+    },
+    "Automated Market Makers for NFTs": {
+        "title": "AMMs for Unique Assets: How It Actually Works",
+        "description": "Not every NFT is fungible... but pricing can still be automated.\n\nBonding curves + oracles + hybrid models.\n\nDeep liquidity even for 1/1s.\n\nThe missing piece of NFT markets.\n\nThink this can work for rare items?"
+    },
+    "Time-Locked Features in NFTs": {
+        "title": "Time-Locked NFTs: Vesting, Reveals, and More",
+        "description": "Built-in time locks for fair launches.\n\nVesting schedules enforced at standard level.\n\nDelayed reveals without trust.\n\nNo more rug pull worries.\n\nFavorite time-locked mechanic?"
+    },
+    "Soulbound Integration Potential": {
+        "title": "Soulbound + Tradable: Best of Both Worlds",
+        "description": "Some parts soulbound, some tradable.\n\nAchievements stay with you, items can be sold.\n\nTrue digital identity + flexible ownership.\n\nERC-1000 makes hybrid tokens easy.\n\nWant soulbound reputation?"
+    },
+    "Upgradable NFT Contracts Safely": {
+        "title": "Safe Upgrades: No More Immutable Regrets",
+        "description": "Proxy patterns built into the standard.\n\nFix bugs, add features, without losing ownership.\n\nCommunity governance for upgrades.\n\nImmutability was a lie anyway.\n\nEver wished you could upgrade an old contract?"
+    },
+    "Multi-Token Bundles Standard": {
+        "title": "NFT Bundles Done Right: Native Standard Support",
+        "description": "Bundle multiple NFTs into one tradable asset.\n\nAutomatic unbundling on transfer.\n\nPerfect for gaming sets, art collections, fractional baskets.\n\nComplexity made simple.\n\nBest bundle you've seen?"
+    },
+    "Lending Primitives Built-In": {
+        "title": "Native Lending: Borrow Against Your NFT Instantly",
+        "description": "No external protocols needed.\n\nERC-1000 has lending hooks from day one.\n\nPeer-to-peer or pool-based.\n\nLiquidity without selling.\n\nGame changer for capital efficiency.\n\nUsed NFT lending yet?"
+    },
+    "Escrow Mechanisms Native": {
+        "title": "Trustless Escrow Built Into the Standard",
+        "description": "Safe trades without middlemen.\n\nConditional transfers based on payment.\n\nDispute resolution hooks ready.\n\nP2P trading finally safe.\n\nEver been scared of OTC trades?"
+    },
+    "Dispute Resolution Hooks": {
+        "title": "Built-In Dispute Resolution: Fair Trades Guaranteed",
+        "description": "Standard hooks for arbitration.\n\nCommunity or oracle-based resolution.\n\nEscrow releases only on agreement.\n\nReduces fraud dramatically.\n\nNeeded this feature?"
+    },
+    "Privacy Features for NFTs": {
+        "title": "Private NFTs: Ownership Without Public Exposure",
+        "description": "Zero-knowledge proofs for ownership.\n\nProve you hold without revealing which.\n\nPrivate transfers and trades.\n\nPrivacy in a public ledger.\n\nWant private NFT holdings?"
+    },
+    "Interoperability Across Chains": {
+        "title": "True Cross-Chain NFTs: No More Bridges Needed",
+        "description": "Native messaging passing.\n\nSame NFT on multiple chains.\n\nLiquidity aggregated across ecosystems.\n\nNo bridge risks.\n\nThe multi-chain dream realized.\n\nSick of bridge hacks?"
+    },
+    "Governance Embedded in Standard": {
+        "title": "On-Chain Governance at Token Level",
+        "description": "NFTs that vote based on traits.\n\nCollection-level governance built in.\n\nDynamic voting power.\n\nDAOs made simpler.\n\nCoolest governance token?"
+    },
+    "Yield-Bearing NFTs": {
+        "title": "NFTs That Earn: Native Yield Generation",
+        "description": "Auto-compounding rewards.\n\nStaking built into transfer.\n\nPassive income from holding.\n\nFinally, NFTs that work for you.\n\nBest yield-bearing NFT?"
+    },
+    "Rental Mechanisms Standardized": {
+        "title": "Rent Your NFT: Standardized Rental System",
+        "description": "Time-based access without transfer.\n\nExpiration automatic.\n\nPerfect for gaming, access passes.\n\nNew business models unlocked.\n\nEver rented an NFT?"
+    },
+    "Subscription Models for NFTs": {
+        "title": "NFT Subscriptions: Ongoing Access Models",
+        "description": "Pay over time for continued access.\n\nAuto-renewal on-chain.\n\nFlexible ownership models.\n\nBeyond one-time sales.\n\nSubscription NFT ideas?"
+    },
+    "Insurance Wrapping Standard": {
+        "title": "Insured NFTs: Risk Coverage Built In",
+        "description": "Wrap your NFT with insurance.\n\nSmart contract failure coverage.\n\nHack protection.\n\nPeace of mind standardized.\n\nWould you insure your NFTs?"
+    },
+    "Derivatives on Single NFTs": {
+        "title": "Options and Futures on Unique NFTs",
+        "description": "Bet on price movement without owning.\n\nPerpetual contracts on 1/1s.\n\nHedging made possible.\n\nAdvanced finance meets art.\n\nToo complex or necessary?"
+    },
+    "Batch Operations Optimized": {
+        "title": "Batch Everything: Optimized for Collections",
+        "description": "Transfer 1000 NFTs in one tx.\n\nApprove all at once safely.\n\nAirdrop efficiently.\n\nCollection management simplified.\n\nBiggest batch operation win?"
+    },
+    "Event Emission for Liquidity": {
+        "title": "Rich Events: Better Indexing and Liquidity",
+        "description": "Detailed transfer events.\n\nPrice data emitted.\n\nBetter analytics and frontends.\n\nLiquidity follows data.\n\nFavorite NFT analytics tool?"
+    },
+    "Metadata Standardization Advanced": {
+        "title": "Better Metadata: Standardized But Flexible",
+        "description": "Core fields mandatory.\n\nCustom extensions allowed.\n\nBetter display across platforms.\n\nNo more broken images.\n\nMetadata pet peeves?"
+    },
+    "Royalty Splitting Mechanisms": {
+        "title": "Complex Royalty Splits Made Easy",
+        "description": "Split between creator, collaborators, DAO.\n\nDynamic percentages.\n\nAutomatic distribution.\n\nFair compensation standardized.\n\nComplex split experience?"
+    },
+    "Collateralization Flags": {
+        "title": "Mark Your NFT as Collateral Natively",
+        "description": "Signal lending availability.\n\nBetter loan terms.\n\nDiscovery for borrowers.\n\nLiquidity from signaling.\n\nWould you flag your NFTs?"
+    },
+    "Burn and Mint Equivalence": {
+        "title": "Burn to Upgrade: Evolution Mechanics",
+        "description": "Burn old NFT, mint evolved version.\n\nPreserve ID lineage.\n\nTrue upgrading system.\n\nGame economies improved.\n\nFavorite evolution mechanic?"
+    },
+    "Transfer Hooks for DeFi": {
+        "title": "Hooks on Transfer: DeFi Magic",
+        "description": "Auto-actions on transfer.\n\nFee capture.\n\nReward distribution.\n\nComposability explosion.\n\nCoolest transfer hook?"
+    },
+    "Approval Management Improved": {
+        "title": "Better Approvals: Granular Control",
+        "description": "Approve specific actions.\n\nTime-limited approvals.\n\nEasy revocation.\n\nSecurity improved dramatically.\n\nApproval horror stories?"
+    },
+    "Enumeration Enhancements": {
+        "title": "Better Collection Tracking and Enumeration",
+        "description": "Efficient owner lists.\n\nTrait queries on-chain.\n\nBetter rarity tools.\n\nCollection analytics native.\n\nFavorite enumeration feature?"
+    },
+    "Flash Loans for NFT Collateral": {
+        "title": "Flash Loans Backed by NFTs: Instant Capital",
+        "description": "Use your NFT as collateral for one-block loans.\n\nArbitrage across markets instantly.\n\nComplex strategies in seconds.\n\nHigh risk, massive reward.\n\nTried NFT flash loans yet?"
+    },
+    "Perpetual Positions on Illiquid Assets": {
+        "title": "Long/Short Unique NFTs with Perpetuals",
+        "description": "Bet on price direction without owning.\n\nLeverage on blue chips.\n\nHedging for holders.\n\nDerivatives market for NFTs begins.\n\nFavorite perpetual platform?"
+    },
+    "Options Pricing for Unique NFTs": {
+        "title": "Options on Single NFTs: Advanced Strategies",
+        "description": "Call/put options on specific tokens.\n\nIncome generation for holders.\n\nDownside protection.\n\nVolatility trading unlocked.\n\nToo sophisticated for NFTs?"
+    },
+    "Yield Farming with Wrapped NFTs": {
+        "title": "Farm Yield with Your Wrapped NFTs",
+        "description": "Stake P-Tokens for rewards.\n\nDouble dip: NFT upside + farming APY.\n\nLiquidity mining done right.\n\nRisk-adjusted returns.\n\nBest farm you've joined?"
+    },
+    "CDPs Backed by Blue Chips": {
+        "title": "Mint Stablecoins Against Blue Chip NFTs",
+        "description": "Like DAI but backed by BAYC, Punks.\n\nOvercollateralized stability.\n\nLeverage long-term holdings.\n\nNew primitive for NFT finance.\n\nTrust blue chip collateral?"
+    },
+    "Undercollateralized Lending Risks": {
+        "title": "Undercollateralized NFT Loans: Credit Revolution?",
+        "description": "Borrow more than your collateral.\n\nBased on reputation, on-chain history.\n\nMassive capital efficiency.\n\nBut defaults coming...\n\nReady for credit scoring in web3?"
+    },
+    "Peer-to-Pool NFT Lending": {
+        "title": "Pool vs Peer: Best Lending Model for NFTs",
+        "description": "Pool = instant liquidity.\n\nP2P = better rates.\n\nHybrid models winning.\n\nChoose based on need.\n\nPreferred lending style?"
+    },
+    "Auction-Based Loan Liquidation": {
+        "title": "Fair Liquidations: Auction Mechanisms Compared",
+        "description": "Dutch vs English vs Batch.\n\nMinimize losses for borrowers.\n\nMaximize recovery for lenders.\n\nGetting liquidation right matters.\n\nWorst liquidation experience?"
+    },
+    "Fixed-Rate Borrowing on NFTs": {
+        "title": "Predictable Costs: Fixed-Rate NFT Loans",
+        "description": "Lock in rates despite volatility.\n\nHedging interest rate risk.\n\nLong-term borrowing possible.\n\nStability in chaotic markets.\n\nFixed or variable preference?"
+    },
+    "Variable Interest Models": {
+        "title": "Dynamic Rates: How Utilization Affects Borrowing",
+        "description": "Rates move with supply/demand.\n\nIncentivizes balance.\n\nHigher utilization = higher rates.\n\nMarket-driven pricing.\n\nSeen crazy rate swings?"
+    },
+    "Credit Delegation for NFTs": {
+        "title": "Delegate Borrowing Power Without Transferring NFT",
+        "description": "Let others borrow against your collateral.\n\nEarn fees for delegation.\n\nKeep ownership.\n\nSophisticated strategy.\n\nUsed credit delegation?"
+    },
+    "Insurance Pools for DeFi Positions": {
+        "title": "Insure Your NFT DeFi Positions",
+        "description": "Coverage for smart contract failures.\n\nLiquidation protection.\n\nHack insurance.\n\nPay premium for peace.\n\nWorth insuring your positions?"
+    },
+    "Delta-Neutral Strategies": {
+        "title": "Delta Neutral NFT Trading: Market-Independent Gains",
+        "description": "Hedge directional risk.\n\nEarn yield regardless of price.\n\nComplex but powerful.\n\nFor advanced traders only.\n\nTried delta neutral?"
+    },
+    "Arbitrage Bots Integration": {
+        "title": "Bot Wars: Arbitrage in NFT Markets",
+        "description": "Instant price alignment across platforms.\n\nProfits for bots, efficiency for markets.\n\nMEV in NFTs emerging.\n\nGood or bad for retail?"
+    },
+    "Limit Orders for NFT Swaps": {
+        "title": "Limit Orders Finally for NFTs",
+        "description": "Set your price and wait.\n\nNo more market orders only.\n\nBetter price execution.\n\nPatient traders rewarded.\n\nUse limit orders much?"
+    },
+    "TWAP Execution for Large Trades": {
+        "title": "TWAP for Big NFT Positions: Avoid Slippage",
+        "description": "Time-weighted average price.\n\nBreak large orders over time.\n\nMinimize market impact.\n\nWhale-friendly execution.\n\nBiggest trade challenge?"
+    },
+    "MEV Protection in NFT DeFi": {
+        "title": "Protecting Users from MEV in NFT Trades",
+        "description": "Private mempools.\n\nBatch auctions.\n\nFair ordering.\n\nRetail needs protection.\n\nMEV hurt you before?"
+    },
+    "Batch Auctions for Fair Pricing": {
+        "title": "Batch Auctions: Fairest Way to Price NFTs?",
+        "description": "All orders in period settled at same price.\n\nNo front-running.\n\nTrue price discovery.\n\nGnosis Auction model for NFTs.\n\nBatch or continuous?"
+    },
+    "Dutch Auctions Reinvented": {
+        "title": "Dutch Auctions: Still Relevant in 2026?",
+        "description": "Price decreases over time.\n\nFair launches originally.\n\nNow for liquidations too.\n\nPsychology works.\n\nFavorite Dutch auction drop?"
+    },
+    "English Auction Automation": {
+        "title": "Automated English Auctions for NFTs",
+        "description": "Bidding wars on-chain.\n\nExtend time on late bids.\n\nMaximum price extraction.\n\nClassic but effective.\n\nBest auction snipe?"
+    },
+    "Sealed-Bid Mechanisms": {
+        "title": "Sealed Bids: Privacy in NFT Auctions",
+        "description": "Commit then reveal.\n\nNo bid signaling.\n\nStrategy matters.\n\nVickrey possible.\n\nUsed sealed bids?"
+    },
+    "Bonding Curves for Collections": {
+        "title": "Bonding Curves: Automated Pricing for Collections",
+        "description": "Price based on supply.\n\nBuilt-in liquidity.\n\nPredictable mint costs.\n\nNew distribution model.\n\nBest bonding curve project?"
+    },
+    "Automated Rebalancing": {
+        "title": "Auto-Rebalance NFT Index Positions",
+        "description": "Maintain target weights.\n\nReduce manual trading.\n\nIndex investing in NFTs.\n\nPassive strategy possible.\n\nWant NFT indexes?"
+    },
+    "Portfolio Margining": {
+        "title": "Portfolio Margin: Better Capital Efficiency",
+        "description": "Offset positions across assets.\n\nLower margin requirements.\n\nAdvanced risk management.\n\nFor serious traders.\n\nUse portfolio margin?"
+    },
+    "Cross-Margin vs Isolated": {
+        "title": "Cross vs Isolated Margin: Risk Tradeoffs",
+        "description": "Cross = higher leverage possible.\n\nIsolated = contain losses.\n\nChoose per position.\n\nStrategy dependent.\n\nPreference?"
+    },
+    "Liquidation Bots Fairness": {
+        "title": "Liquidation Bots: Necessary Evil or Unfair?",
+        "description": "Keep protocols solvent.\n\nProfit from others' pain.\n\nMEV opportunities.\n\nNeed better incentives.\n\nEver been liquidated?"
+    },
+    "Grace Periods in Lending": {
+        "title": "Grace Periods: Save Borrowers from Instant Liqs",
+        "description": "Short window to add collateral.\n\nReduce unnecessary liquidations.\n\nFairer system.\n\nUser-friendly design.\n\nGrace period fan?"
+    },
+    "Health Factor Monitoring": {
+        "title": "Track Your Health Factor: Avoid Liquidation",
+        "description": "Single metric for position safety.\n\nAlerts when dangerous.\n\nProactive management.\n\nEssential dashboard feature.\n\nMonitor health factor?"
+    },
+    "Borrow Caps per Collection": {
+        "title": "Borrow Caps: Risk Management at Collection Level",
+        "description": "Limit exposure per asset.\n\nPrevent over-concentration.\n\nProtocol safety.\n\nSmart risk control.\n\nFair caps?"
+    },
+    "Supply Caps for Safety": {
+        "title": "Supply Caps: Protect Lenders from Risky Assets",
+        "description": "Limit how much can be supplied.\n\nAvoid bad debt.\n\nConservative approach.\n\nNeeded for new collections.\n\nToo restrictive?"
+    },
+    "Utilization Rate Optimization": {
+        "title": "Optimal Utilization: Balance Yield and Liquidity",
+        "description": "Target 80-90% utilization.\n\nHigh yields for lenders.\n\nAvailable borrows.\n\nKink in rate model.\n\nUnderstanding utilization key."
+    },
+    "Reserve Factor Revenue": {
+        "title": "Reserve Factor: Protocol Revenue Stream",
+        "description": "Portion of interest to treasury.\n\nSustainable growth.\n\nInsurance fund growth.\n\nAligns incentives.\n\nGood reserve factor?"
+    },
+    "Protocol-Owned Liquidity": {
+        "title": "POL: Better Than Mercenary Capital",
+        "description": "Protocol owns its liquidity.\n\nNo rug risk.\n\nLong-term alignment.\n\nSustainable fees.\n\nFuture of DeFi."
+    },
+    "Incentive Alignment Tokens": {
+        "title": "Token Incentives Done Right",
+        "description": "Rewards for good behavior.\n\nLong-term holders.\n\nLiquidity providers.\n\nAvoid short-term mercs.\n\nBest incentive design?"
+    },
+    "Slashing Mechanisms": {
+        "title": "Slashing: Punish Bad Actors",
+        "description": "Oracle manipulation.\n\nMalicious proposals.\n\nSlash staked tokens.\n\nStrong deterrence.\n\nNeeded in DeFi?"
+    },
+    "Oracle Deviation Triggers": {
+        "title": "Oracle Safety: Deviation Triggers",
+        "description": "Pause if oracles disagree.\n\nPrevent manipulation.\n\nChainlink, Pyth, etc.\n\nSafety over speed.\n\nOracle failure stories?"
+    },
+    "Music Rights as NFTs": {
+        "title": "Music NFTs: Own Songs, Earn Royalties",
+        "description": "Fractional song ownership.\n\nDirect artist support.\n\nStreaming revenue shares.\n\nCatalog wars beginning.\n\nFavorite music NFT?"
+    },
+    "Event Tickets Revolution": {
+        "title": "NFT Tickets: No More Scalping",
+        "description": "Dynamic pricing.\n\nAnti-bot measures.\n\nSecondary market control.\n\nVIP perks attached.\n\nLive events transformed.\n\nBest NFT ticket experience?"
+    },
+    "Digital Identity Tokens": {
+        "title": "Self-Sovereign Identity with NFTs",
+        "description": "Control your data.\n\nSelective disclosure.\n\nVerifiable credentials.\n\nNo central authority.\n\nPrivacy preserved.\n\nReady for DID?"
+    },
+    "Soulbound Achievements": {
+        "title": "Soulbound Tokens: Non-Transferable Achievements",
+        "description": "Prove accomplishments.\n\nCan't sell reputation.\n\nTrue meritocracy.\n\nGaming, education, work.\n\nSoulbound use case?"
+    },
+    "Education Credentials on Chain": {
+        "title": "Verifiable Degrees and Certs as NFTs",
+        "description": "Instant verification.\n\nNo fake diplomas.\n\nLifetime access.\n\nShare selectively.\n\nEducation revolution.\n\nNeed this?"
+    },
+    "Real Estate Fractionalization": {
+        "title": "Own Property Fractions via NFTs",
+        "description": "Lower entry barriers.\n\nGlobal real estate access.\n\nRental income shares.\n\nLiquidity for real assets.\n\nRWA future.\n\nInvest in property NFTs?"
+    },
+    "Intellectual Property Tracking": {
+        "title": "IP Rights Management with NFTs",
+        "description": "License tracking.\n\nAutomatic royalties.\n\nProvenance proof.\n\nCreator protection.\n\nIP chaos solved.\n\nIP NFT ideas?"
+    },
+    "Supply Chain Provenance": {
+        "title": "Track Goods Journey with NFTs",
+        "description": "Authenticity guaranteed.\n\nCounterfeit prevention.\n\nTransparency end-to-end.\n\nConsumer trust.\n\nLuxury goods first.\n\nProvenance important?"
+    },
+    "Carbon Credits Tokenized": {
+        "title": "Carbon Credits as Tradeable NFTs",
+        "description": "Voluntary markets.\n\nProject-specific tokens.\n\nImpact measurement.\n\nGreenwashing risk.\n\nClimate action on-chain.\n\nBuy carbon NFTs?"
+    },
+    "Voting Rights NFTs": {
+        "title": "Quadratic Voting with NFTs",
+        "description": "Voice amplification.\n\nWeighted by stake.\n\nSybil resistance.\n\nBetter governance.\n\nDemocracy upgraded.\n\nVoting system preference?"
+    },
+    "Membership Passes Evolved": {
+        "title": "Next-Gen Membership NFTs",
+        "description": "Dynamic perks.\n\nLevel up over time.\n\nGated content.\n\nCommunity status.\n\nBeyond static images.\n\nBest membership NFT?"
+    },
+    "Access Control Tokens": {
+        "title": "NFTs as Keys to Exclusive Access",
+        "description": "Events, content, communities.\n\nTime-limited or permanent.\n\nRevocable if needed.\n\nDigital bouncer.\n\nCool access token?"
+    },
+    "Loyalty Programs Web3": {
+        "title": "Web3 Loyalty: Own Your Points",
+        "description": "Tradeable rewards.\n\nComposable with DeFi.\n\nNo expiration scams.\n\nTrue ownership.\n\nLoyalty done right.\n\nWant tradeable points?"
+    },
+    "Fan Engagement Models": {
+        "title": "Direct Fan-Artist Relationships via NFTs",
+        "description": "Backstage passes.\n\nExclusive content.\n\nRevenue shares.\n\nReal connection.\n\nMiddlemen cut out.\n\nFavorite fan token?"
+    },
+    "Creator Economy Tools": {
+        "title": "Better Tools for Digital Creators",
+        "description": "Subscription NFTs.\n\nTip jars on-chain.\n\nCollaboration splits.\n\nFair compensation.\n\nCreator renaissance.\n\nSupport creators how?"
+    },
+    "Patronage Systems": {
+        "title": "Modern Patronage with NFTs",
+        "description": "Ongoing support.\n\nTiered benefits.\n\nDirect funding.\n\nLike Patreon but better.\n\nSustainable creation.\n\nPatron of anyone?"
+    },
+    "Crowdfunding with NFTs": {
+        "title": "NFT Crowdfunding: Back and Own",
+        "description": "Fund projects.\n\nGet equity-like tokens.\n\nRevenue shares.\n\nAligned incentives.\n\nBetter than ICOs.\n\nBacked any NFT crowdfund?"
+    },
+    "Charity Donations Tracked": {
+        "title": "Transparent Charity with NFTs",
+        "description": "Track every dollar.\n\nImpact NFTs.\n\nProof of donation.\n\nTrust restored.\n\nCharity 2.0.\n\nTrust charity now?"
+    },
+    "Medical Records Secure": {
+        "title": "Patient-Controlled Medical Records",
+        "description": "Own your health data.\n\nShare selectively.\n\nInteroperable.\n\nPrivacy first.\n\nHealthcare revolution.\n\nWant control over records?"
+    },
+    "Legal Documents Immutable": {
+        "title": "Immutable Legal Agreements as NFTs",
+        "description": "Tamper-proof contracts.\n\nAutomatic execution.\n\nDispute evidence.\n\nLegal system disruption.\n\nSmart legal docs?"
+    },
+    "Wills and Inheritance": {
+        "title": "Digital Wills: NFT Inheritance",
+        "description": "Dead man's switch.\n\nTime-locked transfer.\n\nClear succession.\n\nNo probate hell.\n\nPlanned your crypto will?"
+    },
+    "Domain Names Decentralized": {
+        "title": "ENS and Beyond: Web3 Domains",
+        "description": "Own your name.\n\nNo renewal scams.\n\nUniversal address.\n\nIdentity layer.\n\nGot your .eth?"
+    },
+    "Social Tokens Integration": {
+        "title": "Social Tokens Meet NFTs",
+        "description": "Personal currencies.\n\nAccess via holding.\n\nCommunity economies.\n\nCreator coins evolved.\n\nHold any social tokens?"
+    },
+    "Reputation Systems": {
+        "title": "On-Chain Reputation Building",
+        "description": "Non-transferable scores.\n\nActivity-based.\n\nCross-platform.\n\nTrust without central authority.\n\nReputation matter?"
+    },
+    "Skill Badges Verified": {
+        "title": "Verified Skill Badges as NFTs",
+        "description": "Prove abilities.\n\nIssuer signed.\n\nPortfolio on-chain.\n\nHiring changed.\n\nNeed skill NFTs?"
+    },
+    "Certification Bodies On-Chain": {
+        "title": "Decentralized Certification Authorities",
+        "description": "Community validated.\n\nRevocable if fraud.\n\nGlobal standards.\n\nNo corrupt bodies.\n\nTrust certs?"
+    },
+    "Academic Degrees NFTs": {
+        "title": "University Degrees as NFTs",
+        "description": "Instant verification.\n\nLifetime proof.\n\nShareable links.\n\nNo paper chasing.\n\nYour degree NFT ready?"
+    },
+    "Professional Licenses": {
+        "title": "License NFTs: Always Current",
+        "description": "Auto-expire if lapsed.\n\nContinuing education tracking.\n\nRegulatory compliance.\n\nProfessions on-chain.\n\nLicense renewal pain?"
+    },
+    "Insurance Policies Tokenized": {
+        "title": "Parametric Insurance via NFTs",
+        "description": "Auto-payout on triggers.\n\nFlight delays, hacks.\n\nTransparent terms.\n\nInsurance fairer.\n\nInsured anything web3?"
+    },
+    "Warranty Tracking": {
+        "title": "Product Warranties as NFTs",
+        "description": "Transfer with product.\n\nProof of purchase.\n\nAuto-claims.\n\nNo lost receipts.\n\nWarranty headaches?"
+    },
+    "Product Authenticity": {
+        "title": "Authenticity Certificates as NFTs",
+        "description": "Diamond origins.\n\nDesigner bags.\n\nArt provenance.\n\nCounterfeits dead.\n\nBuy luxury worry-free?"
+    },
+    "Luxury Goods Provenance": {
+        "title": "Luxury NFTs: Digital Twins",
+        "description": "Physical + digital.\n\nOwnership history.\n\nResale royalties.\n\nNew luxury model.\n\nLuxury NFT interest?"
+    },
+    "Wine and Collectibles": {
+        "title": "Fine Wine NFTs: Investment + Enjoyment",
+        "description": "Stored in bonded warehouse.\n\nTrade fractions.\n\nDelivery on demand.\n\nAlternative assets.\n\nWine investor?"
+    },
+    "Sports Memorabilia": {
+        "title": "Digital Sports Collectibles Evolution",
+        "description": "Moment NFTs upgraded.\n\nReal utility attached.\n\nPlayer revenue shares.\n\nFan ownership.\n\nSports fan?"
+    },
+    "Trading Cards Evolution": {
+        "title": "From Physical to Composable Cards",
+        "description": "Build decks on-chain.\n\nPlay and earn.\n\nCross-game.\n\nTrue ownership.\n\nFavorite card game?"
+    },
+    "Advanced Dashboard Analytics": {
+        "title": "Pro-Level Analytics on Your NFT Portfolio",
+        "description": "Real-time valuation.\n\nLiquidity scores.\n\nRisk metrics.\n\nOpportunity alerts.\n\nMake better decisions.\n\nWhat dashboard feature missing?"
+    },
+    "Mobile App Features": {
+        "title": "Polarise Mobile: NFT DeFi in Your Pocket",
+        "description": "Trade on go.\n\nPush notifications.\n\nBiometric security.\n\nSame power as desktop.\n\nMobile-first future.\n\nUse DeFi mobile much?"
+    },
+    "Developer API Documentation": {
+        "title": "Build on Polarise: Full API Access",
+        "description": "REST and WebSocket.\n\nComprehensive docs.\n\nExample code.\n\nBuild bots, frontends.\n\nDeveloper friendly.\n\nBuilding anything?"
+    },
+    "Community Governance Portal": {
+        "title": "Vote with Your Tokens: Governance Portal",
+        "description": "Proposals, voting, discussion.\n\nTransparent process.\n\nSnapshot + on-chain.\n\nCommunity decides.\n\nActive in governance?"
+    },
+    "Partnership Announcements": {
+        "title": "New Partnerships Unlocking More Liquidity",
+        "description": "Major collections.\n\nChains.\n\nDeFi protocols.\n\nEcosystem growth.\n\nMore opportunities.\n\nExcited for which partner?"
+    },
+    "Roadmap Milestones": {
+        "title": "Roadmap Update: What's Coming Next",
+        "description": "Q1 mainnet.\n\nNew features.\n\nAudits complete.\n\nTeam growth.\n\nDelivering steadily.\n\nMost anticipated feature?"
+    },
+    "Bug Bounty Program Details": {
+        "title": "Bug Bounty: Help Secure the Protocol",
+        "description": "Up to $1M rewards.\n\nImmunefi partnership.\n\nCritical bugs prioritized.\n\nSecurity community.\n\nFound any bugs?"
+    },
+    "Audit Reports Access": {
+        "title": "Full Audit Reports Publicly Available",
+        "description": "Multiple top firms.\n\nNo critical issues.\n\nOngoing monitoring.\n\nTransparency first.\n\nTrust through verification.\n\nRead audit reports?"
+    },
+    "Insurance Fund Status": {
+        "title": "Insurance Fund Growing: Your Safety Net",
+        "description": "Protocol revenue allocation.\n\nCover potential losses.\n\nCommunity controlled.\n\nPeace of mind.\n\nEnough coverage?"
+    },
+    "Onboarding Tutorials": {
+        "title": "Step-by-Step Onboarding Guides",
+        "description": "Videos, articles.\n\nInteractive tours.\n\nBeginner friendly.\n\nGet started fast.\n\nSmooth experience.\n\nNeeded better tutorials?"
+    },
+    "Wallet Integration Guide": {
+        "title": "Connect Any Wallet Seamlessly",
+        "description": "MetaMask, WalletConnect.\n\nHardware support.\n\nMobile wallets.\n\nNo wallet lock-in.\n\nYour choice.\n\nFavorite wallet?"
+    },
+    "Multi-Chain Bridge Usage": {
+        "title": "Bridge Assets Safely Across Chains",
+        "description": "Official bridge.\n\nLow fees.\n\nFast finality.\n\nSecure design.\n\nMulti-chain easy.\n\nBridge often?"
+    },
+    "Fee Structure Explained": {
+        "title": "Transparent Fees: Where Money Goes",
+        "description": "Low trading fees.\n\nProtocol revenue.\n\nLP rewards.\n\nNo hidden costs.\n\nFair model.\n\nFee complaints?"
+    },
+    "Reward Programs": {
+        "title": "Earn Rewards for Using the Platform",
+        "description": "Trading rewards.\n\nLiquidity mining.\n\nReferral bonuses.\n\nLong-term alignment.\n\nActive earner?"
+    },
+    "Referral System": {
+        "title": "Refer Friends, Earn Together",
+        "description": "Permanent revenue share.\n\nBoth sides benefit.\n\nGrow the network.\n\nViral growth.\n\nReferred anyone?"
+    },
+    "Leaderboard Competitions": {
+        "title": "Trading Competitions with Big Prizes",
+        "description": "Volume leaderboards.\n\nPnL contests.\n\nNFT rewards.\n\nFun and profit.\n\nCompetitive trader?"
+    },
+    "Notification System": {
+        "title": "Never Miss Important Events",
+        "description": "Price alerts.\n\nLiquidation warnings.\n\nNew listings.\n\nCustomizable.\n\nStay informed.\n\nAlert setup?"
+    },
+    "Dark Mode Preferences": {
+        "title": "Dark Mode: Easier on the Eyes",
+        "description": "System default support.\n\nManual toggle.\n\nBetter for night trading.\n\nSmall but important.\n\nDark mode always?"
+    },
+    "Language Support": {
+        "title": "Multi-Language Support Coming",
+        "description": "English, Spanish, Chinese.\n\nCommunity translations.\n\nGlobal accessibility.\n\nMore languages needed.\n\nYour language?"
+    },
+    "Accessibility Features": {
+        "title": "Accessible Design for All Users",
+        "description": "Screen reader support.\n\nKeyboard navigation.\n\nColor contrast.\n\nInclusive design.\n\nImportant feature?"
+    },
+    "Feedback Submission": {
+        "title": "Your Feedback Shapes the Product",
+        "description": "In-app feedback.\n\nFeature requests.\n\nBug reports.\n\nWe listen.\n\nCommunity driven.\n\nSubmitted feedback?"
+    },
+    "Support Ticket System": {
+        "title": "Fast Support When You Need It",
+        "description": "24/7 live chat.\n\nTicket tracking.\n\nKnowledge base.\n\nHelp center.\n\nGood support experience?"
+    },
+    "FAQ Comprehensive": {
+        "title": "Answers to All Common Questions",
+        "description": "Searchable FAQ.\n\nCategorized.\n\nRegular updates.\n\nSelf-service first.\n\nFound your answer?"
+    },
+    "Video Guides Library": {
+        "title": "Learn by Watching: Video Library",
+        "description": "Feature tutorials.\n\nStrategy guides.\n\nBeginner series.\n\nVisual learning.\n\nFavorite guide?"
+    },
+    "Live Demo Sessions": {
+        "title": "Live Demos: See Features in Action",
+        "description": "Weekly sessions.\n\nQ&A with team.\n\nNew feature reveals.\n\nInteractive learning.\n\nJoined any?"
+    },
+    "Webinar Recordings": {
+        "title": "Watch Past Webinars Anytime",
+        "description": "Market analysis.\n\nFeature deep dives.\n\nAMA sessions.\n\nOn-demand.\n\nLearned from webinars?"
+    },
+    "Newsletter Signup": {
+        "title": "Stay Updated: Weekly Newsletter",
+        "description": "Important updates.\n\nMarket insights.\n\nExclusive alpha.\n\nNo spam.\n\nSubscribed?"
+    },
+    "Social Media Integration": {
+        "title": "Connect Your Social Profiles",
+        "description": "Share trades.\n\nProfile badges.\n\nCommunity features.\n\nSocial web3.\n\nConnect socials?"
+    },
+    "Discord Community Link": {
+        "title": "Join Our Thriving Discord",
+        "description": "Channels for everything.\n\nActive mods.\n\nVoice chats.\n\nReal community.\n\nDiscord regular?"
+    },
+    "Telegram Updates": {
+        "title": "Instant Updates on Telegram",
+        "description": "Announcement channel.\n\nPrice alerts.\n\nFast news.\n\nMobile friendly.\n\nFollow on TG?"
+    },
+    "Twitter Spaces Archive": {
+        "title": "Listen to Past Twitter Spaces",
+        "description": "Team AMAs.\n\nGuest speakers.\n\nMarket discussions.\n\nRecorded forever.\n\nFavorite space?"
+    },
+    "Blog Post Access": {
+        "title": "Deep Dives on the Polarise Blog",
+        "description": "Technical posts.\n\nMarket analysis.\n\nTeam updates.\n\nEducational content.\n\nRegular reader?"
+    },
+    "Whitepaper Download": {
+        "title": "Read the Full Whitepaper",
+        "description": "Technical details.\n\nTokenomics.\n\nVision.\n\nDownload PDF.\n\nRead whitepapers?"
+    },
+    "Litepaper Summary": {
+        "title": "Quick Overview: Litepaper",
+        "description": "5-minute read.\n\nKey points.\n\nEasy understanding.\n\nPerfect for sharing.\n\nShared with friends?"
+    },
+    "Token Distribution Chart": {
+        "title": "Fair Token Distribution Breakdown",
+        "description": "Team vested.\n\nCommunity heavy.\n\nNo VC dumps.\n\nLong-term alignment.\n\nFair launch?\n\nToken dist concerns?"
+    },
+    "Regulatory Landscape Shifting": {
+        "title": "NFT Regulation in 2026: What Changed?",
+        "description": "Clearer guidelines.\n\nTax treatment.\n\nSecurity vs utility.\n\nGlobal differences.\n\nAdapt or die.\n\nRegulation opinion?"
+    },
+    "Environmental Impact Debate": {
+        "title": "NFTs and Energy: The Real Story",
+        "description": "PoS Ethereum.\n\nLayer 2 efficiency.\n\nCarbon offset claims.\n\nNot the villain.\n\nGreen NFTs matter?"
+    },
+    "AI Generation Boom": {
+        "title": "AI Art Explosion: Opportunity or Flood?",
+        "description": "Infinite creation.\n\nLower barriers.\n\nQuality vs quantity.\n\nHuman art still king?\n\nUse AI art tools?"
+    },
+    "Cross-Chain Future": {
+        "title": "Multi-Chain World: No Single Winner",
+        "description": "Specialized chains.\n\nInteroperability key.\n\nLiquidity fragmentation.\n\nBridges improving.\n\nChain preference?"
+    },
+    "Privacy Enhancements Needed": {
+        "title": "Privacy in NFTs: Still Missing",
+        "description": "Everything public.\n\nZK proofs coming.\n\nPrivate ownership.\n\nNeeded badly.\n\nPrivacy concerns?"
+    },
+    "Scalability Solutions Impact": {
+        "title": "L2s Changed Everything for NFTs",
+        "description": "Cheap mints.\n\nFast trades.\n\nBetter UX.\n\nAdoption driver.\n\nFavorite L2?"
+    },
+    "Layer 2 Adoption Rates": {
+        "title": "L2 Adoption: Faster Than Expected",
+        "description": "TVL shifting.\n\nUser growth.\n\nMainnet quiet.\n\nFuture is layered.\n\nUse L2s primarily?"
+    },
+    "User Adoption Barriers": {
+        "title": "Biggest Barriers to NFT Mass Adoption",
+        "description": "Complexity.\n\nScams.\n\nUX issues.\n\nEducation needed.\n\nAlmost there.\n\nBiggest barrier?"
+    },
+    "Mass Market Entry Points": {
+        "title": "What Will Bring Normies to NFTs",
+        "description": "Gaming.\n\nSocial.\n\nReal utility.\n\nSeamless onboarding.\n\nNext billion users.\n\nMass adoption trigger?"
+    },
+    "Corporate Adoption Cases": {
+        "title": "Big Brands Still Doing NFTs",
+        "description": "Better execution.\n\nReal perks.\n\nCustomer engagement.\n\nNot dead.\n\nFavorite brand NFT?"
+    },
+    "Brand Collaborations": {
+        "title": "Successful Brand x NFT Project Collabs",
+        "description": "Authenticity matters.\n\nUtility required.\n\nCommunity first.\n\nSome actually good.\n\nBest collab?"
+    },
+    "Celebrity NFT Fatigue": {
+        "title": "Celebs Ruined Then Saved NFTs",
+        "description": "Cash grabs over.\n\nGenuine ones remain.\n\nHigher standards.\n\nMaturing market.\n\nCelebrity NFT opinion?"
+    },
+    "Community Building Evolution": {
+        "title": "Real Communities vs Paid Shills",
+        "description": "Organic growth.\n\nShared values.\n\nLong-term focus.\n\nQuality over quantity.\n\nStrong community member?"
+    },
+    "Marketing Strategies Effective": {
+        "title": "What Marketing Actually Works in 2026",
+        "description": "Product first.\n\nCommunity second.\n\nHype last.\n\nOld ways dead.\n\nMarketing thoughts?"
+    },
+    "Viral Growth Mechanics": {
+        "title": "Viral Loops in NFT Projects",
+        "description": "Referral rewards.\n\nSocial sharing.\n\nNetwork effects.\n\nSustainable growth.\n\nViral project experience?"
+    },
+    "Sustainability Initiatives": {
+        "title": "Green NFTs: More Than Marketing",
+        "description": "Carbon negative.\n\nRenewable energy.\n\nImpact projects.\n\nGenuine efforts.\n\nCare about green?"
+    },
+    "Carbon Neutral Claims": {
+        "title": "Carbon Neutral: Real or Greenwashing?",
+        "description": "Offsets vs reduction.\n\nVerification needed.\n\nSome serious.\n\nMany fake.\n\nBelieve claims?"
+    },
+    "Energy Efficient Protocols": {
+        "title": "Most Efficient Chains for NFTs",
+        "description": "L2s leading.\n\nNew L1s competing.\n\nGas matters.\n\nEfficiency race.\n\nEfficient chain user?"
+    },
+    "Proof of Stake Transition": {
+        "title": "PoS Ethereum: Game Changer",
+        "description": "Energy drop.\n\nSecurity same.\n\nStaking yields.\n\nCritics quiet.\n\nPoS believer?"
+    },
+    "Modular Blockchain Designs": {
+        "title": "Modular vs Monolithic: Future Architecture",
+        "description": "Specialization.\n\nBetter scaling.\n\nComposable.\n\nCelestia, etc.\n\nModular winner?"
+    },
+    "Account Abstraction Benefits": {
+        "title": "Account Abstraction: Better UX",
+        "description": "Social recovery.\n\nNo seed phrases.\n\nBatch transactions.\n\nMass adoption key.\n\nAA wallet user?"
+    },
+    "Social Recovery Wallets": {
+        "title": "Recover Without Seed Phrases",
+        "description": "Guardians approve.\n\nNo single failure.\n\nUser friendly.\n\nSecurity tradeoffs.\n\nSocial recovery setup?"
+    },
+    "Biometric Security": {
+        "title": "Biometrics in Web3 Wallets",
+        "description": "Face ID.\n\nFingerprint.\n\nConvenient.\n\nPrivacy concerns.\n\nBiometrics trust?"
+    },
+    "Quantum Resistance Prep": {
+        "title": "Preparing for Quantum Threats",
+        "description": "New crypto algorithms.\n\nLong-term planning.\n\nNot urgent yet.\n\nFuture proofing.\n\nQuantum worried?"
+    },
+    "Long-Term Value Storage": {
+        "title": "NFTs as Long-Term Store of Value?",
+        "description": "Culture preserved.\n\nDigital scarcity.\n\nHistory on-chain.\n\nPossible heirlooms.\n\nHODL NFTs long term?"
+    },
+    "Inheritance Planning Web3": {
+        "title": "Planning Crypto Inheritance",
+        "description": "Dead man switches.\n\nTime locks.\n\nTrusted parties.\n\nImportant planning.\n\nInheritance plan?"
+    },
+    "Estate Management Tools": {
+        "title": "Web3 Estate Management Solutions",
+        "description": "Automated distribution.\n\nLegal wrappers.\n\nFamily access.\n\nGrowing need.\n\nUsed any tools?"
+    },
+    "Tax Compliance Helpers": {
+        "title": "Crypto Tax Tools Essential",
+        "description": "Transaction tracking.\n\nNFT cost basis.\n\nReport generation.\n\nAvoid headaches.\n\nTax tool user?"
+    },
+    "Reporting Tools Integration": {
+        "title": "Built-In Tax Reporting",
+        "description": "Export CSV.\n\nKoinly, etc integration.\n\nAccurate NFT tracking.\n\nCompliance easy.\n\nNeed better reporting?"
+    },
+    "KYC/AML Compliance": {
+        "title": "KYC in DeFi: Necessary Evil?",
+        "description": "Institutional requirement.\n\nPrivacy loss.\n\nHybrid solutions.\n\nBalance needed.\n\nKYC opinion?"
+    },
+    "Decentralized Identity Solutions": {
+        "title": "DID: Future of Identity",
+        "description": "Self-sovereign.\n\nVerifiable.\n\nPortable.\n\nNo Google login.\n\nIdentity future?\n\nDID ready?"
+    },
+    "Verifiable Credentials": {
+        "title": "Prove Things Without Revealing Everything",
+        "description": "ZK proofs.\n\nSelective disclosure.\n\nAge without ID.\n\nPrivacy preserved.\n\nVC use case?"
+    },
+    "Zero-Knowledge Applications": {
+        "title": "ZK Beyond Privacy: Scaling Too",
+        "description": "Validium.\n\nVolition.\n\nPrivate transactions.\n\nGame changer.\n\nZK hype real?"
+    },
+    "Selective Disclosure": {
+        "title": "Share Only What Needed",
+        "description": "Prove over 18.\n\nNo birthdate.\n\nProve income bracket.\n\nNo exact number.\n\nPrivacy norm.\n\nWant selective disclosure?"
+    },
+    "Volume Analysis Techniques": {
+        "title": "Spot Real Volume vs Wash Trading",
+        "description": "Unique wallets.\n\nCross-platform.\n\nOn-chain patterns.\n\nDon't trust headlines.\n\nVolume checker?"
+    },
+    "Whale Tracking Tools": {
+        "title": "Track Whale Movements Live",
+        "description": "Big transfers.\n\nCollection sweeps.\n\nEarly signals.\n\nAlpha source.\n\nFollow whales?"
+    },
+    "Wash Trading Detection": {
+        "title": "How to Detect Wash Trading",
+        "description": "Same wallet cycles.\n\nRound numbers.\n\nNo real ownership change.\n\nCommon manipulation.\n\nSpotted wash trading?"
+    },
+    "Index Creation for NFTs": {
+        "title": "NFT Indexes: Passive Investing",
+        "description": "Blue chip basket.\n\nSector indexes.\n\nRebalanced.\n\nLower risk.\n\nWant NFT ETF-like?"
+    },
+    "Portfolio Diversification": {
+        "title": "Diversify Your NFT Holdings",
+        "description": "Different sectors.\n\nRisk profiles.\n\nNot all PFPs.\n\nBetter returns.\n\nDiversified portfolio?"
+    },
+    "Correlation with Crypto": {
+        "title": "NFTs vs BTC/ETH Correlation",
+        "description": "High beta.\n\nRisk on/off.\n\nCycle dependent.\n\nDiversification limited.\n\nCorrelation concerns?"
+    },
+    "Macro Economic Influences": {
+        "title": "How Macro Affects NFT Markets",
+        "description": "Interest rates.\n\nRisk appetite.\n\nLiquidity conditions.\n\nSame as stocks.\n\nMacro watcher?"
+    },
+    "Interest Rate Impacts": {
+        "title": "Rate Cuts = NFT Bull?",
+        "description": "Cheaper money.\n\nRisk assets up.\n\nHistorical pattern.\n\n2025-2026 outlook.\n\nRate cut bull?"
+    },
+    "Inflation Hedge Claims": {
+        "title": "NFTs as Inflation Hedge: Myth or Reality?",
+        "description": "Fixed supply.\n\nBut high volatility.\n\nCulture value.\n\nPartial hedge.\n\nInflation protection?"
+    },
+    "Store of Value Debate": {
+        "title": "Can NFTs Be Store of Value?",
+        "description": "Some yes.\n\nMost no.\n\nCulture endures.\n\nDigital gold possible.\n\nSOV believer?"
+    },
+    "Speculation vs Utility": {
+        "title": "Utility Winning Over Pure Speculation",
+        "description": "Survivors have utility.\n\nJPEGs struggling.\n\nReal use cases.\n\nMaturing market.\n\nUtility focus?"
+    },
+    "Adoption Metrics": {
+        "title": "Key NFT Adoption Metrics to Watch",
+        "description": "Unique holders.\n\nDaily active.\n\nTransaction count.\n\nNot just volume.\n\nMetric preference?"
+    },
+    "Unique Holder Growth": {
+        "title": "Unique Holders: Real Adoption Indicator",
+        "description": "Better than price.\n\nLong-term health.\n\nDistribution matters.\n\nGrowing holders good.\n\nTrack holders?"
+    },
+    "Transfer Volume Trends": {
+        "title": "Transfer Volume vs Sales Volume",
+        "description": "Airdrops inflate.\n\nReal activity.\n\nHealth check.\n\nWatch transfers.\n\nTransfer spikes meaning?"
+    },
+    "Listing vs Delisting": {
+        "title": "Delistings Signal Weakness",
+        "description": "Marketplaces cull.\n\nLow volume projects.\n\nNatural selection.\n\nQuality improves.\n\nDelisted project?"
+    },
+    "Marketplace Competition": {
+        "title": "Marketplace Wars in 2026",
+        "description": "Features matter.\n\nFees low.\n\nLiquidity key.\n\nInnovation wins.\n\nFavorite marketplace?"
+    },
+    "Fee Wars Analysis": {
+        "title": "Zero Fees Killed Then Saved Marketplaces",
+        "description": "Unsustainable.\n\nBack to balanced.\n\nValue added.\n\nFees necessary.\n\nZero fee opinion?"
+    },
+    "Blur vs OpenSea Shift": {
+        "title": "Blur Dominance: Pro Trading Focus",
+        "description": "Fast UI.\n\nAdvanced tools.\n\nPoints system.\n\nRetail left behind?\n\nBlur user?"
+    },
+    "Aggregator Dominance": {
+        "title": "Aggregators Rule Discovery",
+        "description": "Best price routing.\n\nAll marketplaces.\n\nEssential tool.\n\nNo direct trading.\n\nUse aggregators?"
+    },
+    "Sniping Bots Effect": {
+        "title": "Mint Sniping: Fair or Unfair?",
+        "description": "Bots win allowlists.\n\nRetail loses.\n\nCaptcha ineffective.\n\nLaunch fairness.\n\nSniped before?"
+    },
+    "Reveal Mechanics Fairness": {
+        "title": "On-Reveal vs Pre-Reveal: Which Fairer?",
+        "description": "Pre-reveal = trait sniping.\n\nOn-reveal = true randomness.\n\nBoth issues.\n\nPreference?"
+    },
+    "Mint Price Strategies": {
+        "title": "Optimal Mint Pricing Strategies",
+        "description": "Dutch auction best.\n\nFixed price simple.\n\nBonding curves.\n\nFair launch matters.\n\nMint strategy?"
+    },
+    "Post-Mint Performance": {
+        "title": "Most Projects Dump Post-Mint",
+        "description": "Paper hands.\n\nTeam sells.\n\nOverhyped.\n\nFew survive.\n\nPost-mint experience?"
+    },
+    "Rarity Distribution": {
+        "title": "Rarity Design Matters",
+        "description": "Even vs power law.\n\nTrue 1/1s.\n\nTrait balance.\n\nAffects floor.\n\nRarity tools user?"
+    },
+    "Trait Value Assessment": {
+        "title": "Which Traits Actually Have Value",
+        "description": "Community decides.\n\nChanges over time.\n\nNot just rarity.\n\nNarrative matters.\n\nTrait hunting?"
+    },
+    "Community Sentiment Indicators": {
+        "title": "Sentiment Tools for NFT Projects",
+        "description": "Discord activity.\n\nTwitter mentions.\n\nHolder retention.\n\nEarly warning.\n\nSentiment tracker?"
+    },
+    "Social Volume Correlation": {
+        "title": "Social Volume vs Price Action",
+        "description": "Lagging indicator.\n\nHype peaks.\n\nFade the noise.\n\nUseful still.\n\nSocial volume watch?"
+    },
+    "Google Trends NFT": {
+        "title": "Google Trends Predicts Cycles",
+        "description": "Search interest peaks.\n\nThen market tops.\n\nBottoms quiet.\n\nCycle indicator.\n\nCheck trends?"
+    },
+    "Search Interest Cycles": {
+        "title": "Retail Interest Cycle Pattern",
+        "description": "Euphoria then despair.\n\nSame every cycle.\n\nContrarian opportunity.\n\nClassic behavior.\n\nCycle position?"
+    },
+    "Media Coverage Bias": {
+        "title": "Media Always Late to NFTs",
+        "description": "Dead when bottom.\n\nRevolutionary at top.\n\nIgnore headlines.\n\nFollow data.\n\nMedia trust?"
+    },
+    "Narrative Shifts": {
+        "title": "Narrative Drives NFT Valuations",
+        "description": "Gaming narrative.\n\nRWA narrative.\n\nAI narrative next.\n\nFollow the story.\n\nCurrent narrative?"
+    },
+    "Hype Cycle Stages": {
+        "title": "Where Are We in the Hype Cycle?",
+        "description": "Trough of disillusionment.\n\nSlope of enlightenment coming.\n\nPlateau soon.\n\nClassic Gartner.\n\nCycle stage?"
+    },
+    "Recovery Patterns": {
+        "title": "NFT Bear Market Recovery Patterns",
+        "description": "Blue chips lead.\n\nVolume slow.\n\nUtility first.\n\nSame as past.\n\nRecovery signs?"
+    },
+    "Bottom Indicators": {
+        "title": "Signs We've Hit NFT Bottom",
+        "description": "Apathy max.\n\nLow volume.\n\nStrong holders.\n\nBuilding quietly.\n\nBottom in?"
+    },
+    "Wallet Setup Basics": {
+        "title": "Safe Wallet Setup for Beginners",
+        "description": "Hardware recommended.\n\nSeed backup offline.\n\nTest small amounts.\n\nNever share seed.\n\nSetup done right?"
+    },
+    "Gas Fees and Optimization": {
+        "title": "Minimize Gas Fees: Tips and Tricks",
+        "description": "Time transactions.\n\nUse L2s.\n\nBatch operations.\n\nGas tokens.\n\nGas pain level?"
+    },
+    "Bridging Between Chains": {
+        "title": "Safe Bridging Guide",
+        "description": "Official bridges.\n\nCheck TVL.\n\nWait for finality.\n\nNo rush.\n\nBridged lately?"
+    },
+    "Airdrop Hunting Safely": {
+        "title": "Hunt Airdrops Without Getting Rekt",
+        "description": "Real activity.\n\nNo approval spam.\n\nMultiple wallets.\n\nLong-term play.\n\nAirdrop farmer?"
+    },
+    "Tax Basics for Crypto": {
+        "title": "Crypto Tax 101: Don't Get Surprised",
+        "description": "Track cost basis.\n\nNFTs are property.\n\nAirdrops taxable.\n\nUse tools.\n\nTax prepared?"
+    },
+    "Security Best Practices": {
+        "title": "Top Security Practices 2026",
+        "description": "Hardware wallet.\n\nMulti-sig.\n\nRevoke approvals.\n\nVerify contracts.\n\nSecurity level?"
+    },
+    "Phishing Avoidance": {
+        "title": "Spot Phishing Attempts Easily",
+        "description": "Check URLs.\n\nNo urgent demands.\n\nVerify senders.\n\nBookmark sites.\n\nPhished before?"
+    },
+    "Seed Phrase Management": {
+        "title": "Secure Your Seed Phrase Properly",
+        "description": "Metal backup.\n\nSplit storage.\n\nNever digital.\n\nFamily access plan.\n\nSeed safe?"
+    },
+    "Hardware Wallets Review": {
+        "title": "Best Hardware Wallets 2026",
+        "description": "Ledger, Trezor.\n\nNew entrants.\n\nFeatures compared.\n\nAir-gapped best.\n\nHardware user?"
+    },
+    "Multi-Sig Setup": {
+        "title": "Set Up Multi-Sig for Safety",
+        "description": "Require multiple keys.\n\nNo single failure.\n\nTeam or family.\n\nExtra security.\n\nMulti-sig user?"
+    },
+    "Revoke Approvals": {
+        "title": "Revoke Token Approvals Regularly",
+        "description": "Unlimited approvals danger.\n\nRevoke unused.\n\nTools available.\n\nEssential maintenance.\n\nRevoked lately?"
+    },
+    "Contract Interaction Safety": {
+        "title": "Safe Smart Contract Interactions",
+        "description": "Simulate first.\n\nCheck audits.\n\nSmall amounts test.\n\nRead code if possible.\n\nCareful clicker?"
+    },
+    "Reading Transaction Details": {
+        "title": "Always Read Tx Before Signing",
+        "description": "What it actually does.\n\nNot just 'approve'.\n\nUse simulators.\n\nNo blind signing.\n\nRead txs?"
+    },
+    "EIP Understanding": {
+        "title": "Key EIPs That Matter",
+        "description": "4337 account abstraction.\n\n3074 auth.\n\nChanges coming.\n\nStay informed.\n\nFollow EIPs?"
+    },
+    "Blockchain Explorers Usage": {
+        "title": "Master Etherscan and Friends",
+        "description": "Track txs.\n\nView contracts.\n\nToken holdings.\n\nEssential tool.\n\nExplorer pro?"
+    },
+    "On-Chain Data Reading": {
+        "title": "Read On-Chain Data Like a Pro",
+        "description": "Dune, Nansen.\n\nCustom queries.\n\nAlpha source.\n\nBeyond prices.\n\nOn-chain analyst?"
+    },
+    "Dune Analytics Queries": {
+        "title": "Useful Dune Queries for NFTs",
+        "description": "Volume dashboards.\n\nHolder analysis.\n\nWhale tracking.\n\nCommunity made.\n\nDune user?"
+    },
+    "NFT Rarity Checkers": {
+        "title": "Best Rarity Tools Compared",
+        "description": "Trait floor.\n\nStatistical rarity.\n\nDifferent methods.\n\nUse carefully.\n\nRarity tool?"
+    },
+    "Floor Price Trackers": {
+        "title": "Track Floor Prices Effectively",
+        "description": "Sweeps detection.\n\nHistorical data.\n\nAlerts.\n\nMultiple sources.\n\nFloor watcher?"
+    },
+    "Portfolio Trackers": {
+        "title": "Best NFT Portfolio Trackers",
+        "description": "PnL tracking.\n\nMulti-chain.\n\nTax reports.\n\nEssential apps.\n\nPortfolio tool?"
+    },
+    "DeFi Yield Calculators": {
+        "title": "Calculate Real Yield Accurately",
+        "description": "Impermanent loss.\n\nToken price changes.\n\nNet APY.\n\nNot just headline.\n\nYield chaser?"
+    },
+    "APY vs APR": {
+        "title": "APY vs APR: Understand the Difference",
+        "description": "Compounding matters.\n\nReal returns.\n\nCompare properly.\n\nMath simple.\n\nAPY understand?"
+    },
+    "Impermanent Loss Explained": {
+        "title": "Impermanent Loss: Real Risk",
+        "description": "Price divergence.\n\nMitigation strategies.\n\nCalculate before LP.\n\nOften worth it.\n\nIL victim?"
+    },
+    "Slippage Tolerance": {
+        "title": "Set Slippage Properly",
+        "description": "Too low = failed tx.\n\nToo high = bad price.\n\nAsset dependent.\n\nLearn from experience.\n\nSlippage setting?"
+    },
+    "Deadline Settings": {
+        "title": "Transaction Deadlines: Avoid Stuck Txs",
+        "description": "Reasonable time.\n\nNot too short.\n\nFront-running protection.\n\nSmall detail matters.\n\nDeadline adjuster?"
+    },
+    "Private Transactions": {
+        "title": "Private Txs to Avoid MEV",
+        "description": "Flashbots protect.\n\nNo sandwich.\n\nSlightly higher gas.\n\nWorth it.\n\nPrivate tx user?"
+    },
+    "VPN Usage Web3": {
+        "title": "VPN for Web3: Necessary or Not?",
+        "description": "IP protection.\n\nGeo restrictions.\n\nNot full anonymity.\n\nBasic precaution.\n\nVPN user?"
+    },
+    "OPSEC Importance": {
+        "title": "Operational Security in Crypto",
+        "description": "Separate identities.\n\nNo doxxing.\n\nCompartmentalize.\n\nLong-term safety.\n\nOPSEC level?"
+    },
+    "Social Engineering Defense": {
+        "title": "Defend Against Social Engineering",
+        "description": "Fake urgency.\n\nImpersonation.\n\nVerify everything.\n\nMost hacks social.\n\nTricked before?"
+    },
+    "Rug Pull Signs": {
+        "title": "Red Flags for Rug Pulls",
+        "description": "Liquidity not locked.\n\nTeam anonymous.\n\nHype no delivery.\n\nMint authority.\n\nRugged?"
+    },
+    "Project Due Diligence": {
+        "title": "Proper Project Research Checklist",
+        "description": "Team.\n\nTokenomics.\n\nAudits.\n\nCommunity.\n\nDo your own research.\n\nDD process?"
+    },
+    "Team Verification": {
+        "title": "Verify Team: Doxxed vs Anon",
+        "description": "Track record.\n\nPast projects.\n\nBoth can work.\n\nExecution matters.\n\nTeam trust?"
+    },
+    "Contract Audit Reading": {
+        "title": "How to Read Audit Reports",
+        "description": "Critical vs low.\n\nFixed issues.\n\nMultiple audits.\n\nNot guarantee.\n\nRead audits?"
+    },
+    "Community Evaluation": {
+        "title": "Evaluate Community Health",
+        "description": "Organic discussion.\n\nNo price talk only.\n\nActive builders.\n\nLong-term vibe.\n\nCommunity judge?"
+    },
+    "AI-Driven NFT Creation": {
+        "title": "AI Art NFTs: Infinite Supply Revolution",
+        "description": "Dynamic generation.\n\nPersonalized art.\n\nLower cost.\n\nHuman curation still key.\n\nAI artist?"
+    },
+    "VR/AR Immersive Worlds": {
+        "title": "VR Metaverse: Actually Coming This Time?",
+        "description": "Better hardware.\n\nLower latency.\n\nReal use cases.\n\nSocial + ownership.\n\nVR ready?"
+    },
+    "RWA Tokenization Explosion": {
+        "title": "Real World Assets on Chain: Billions Coming",
+        "description": "Real estate.\n\nBonds.\n\nArt.\n\nLiquidity for illiquid.\n\nRWA believer?"
+    },
+    "Decentralized Physical Infrastructure": {
+        "title": "DePIN: Physical Networks Decentralized",
+        "description": "WiFi sharing.\n\nCompute.\n\nStorage.\n\nReal utility.\n\nDePIN project?"
+    },
+    "IoT Integration with NFTs": {
+        "title": "NFTs Controlling Physical Devices",
+        "description": "Ownership = control.\n\nSmart homes.\n\nCars.\n\nIndustrial.\n\nIoT NFT ideas?"
+    },
+    "Autonomous Agents Owning Assets": {
+        "title": "AI Agents with Wallets and NFTs",
+        "description": "Trade autonomously.\n\nOwn assets.\n\nExecute strategies.\n\nFuture of DeFi.\n\nAgent future?"
+    },
+    "DAO Evolution 2.0": {
+        "title": "Better DAOs: Fixing Past Mistakes",
+        "description": "Reputation voting.\n\nFutures planning.\n\nLegal wrappers.\n\nWorking better.\n\nDAO member?"
+    },
+    "Reputation-Based Economies": {
+        "title": "Reputation as Economic Primitive",
+        "description": "Non-transferable.\n\nActivity earned.\n\nAccess and power.\n\nNew social layer.\n\nReputation system?"
+    },
+    "Universal Basic Income Web3": {
+        "title": "UBI Experiments on Chain",
+        "description": "Circles.\n\nProof of humanity.\n\nCommunity funded.\n\nPossible models.\n\nUBI supporter?"
+    },
+    "Global Digital Economy": {
+        "title": "Borderless Economy Becoming Real",
+        "description": "No banks needed.\n\nInstant settlement.\n\nGlobal access.\n\nFinancial inclusion.\n\nLiving it?"
+    },
+    "Borderless Finance Realized": {
+        "title": "DeFi Making Traditional Finance Obsolete",
+        "description": "Better rates.\n\n24/7.\n\nPermissionless.\n\nSlowly winning.\n\nDeFi user?"
+    },
+    "Creator Sovereignty": {
+        "title": "Creators Owning Their Platforms",
+        "description": "Direct monetization.\n\nData ownership.\n\nNo algorithm changes.\n\nCreator empowerment.\n\nCreator?"
+    },
+    "Fan-Owned Platforms": {
+        "title": "Fans Owning the Platforms They Love",
+        "description": "Governance tokens.\n\nRevenue shares.\n\nAligned incentives.\n\nBetter content.\n\nFan owner?"
+    },
+    "Interoperable Metaverses": {
+        "title": "No More Walled Gardens: Open Metaverse",
+        "description": "Travel with assets.\n\nUniversal avatars.\n\nShared standards.\n\nPossible soon.\n\nMetaverse believer?"
+    },
+    "Standardized Avatars": {
+        "title": "One Avatar Across All Worlds",
+        "description": "Customizable.\n\nOwn your look.\n\nCross-platform.\n\nIdentity layer.\n\nAvatar ready?"
+    },
+    "Cross-Game Inventories": {
+        "title": "Take Your Items Anywhere",
+        "description": "True ownership.\n\nNo game lock-in.\n\nComposable gear.\n\nGaming revolution.\n\nCross-game items?"
+    },
+    "Play and Own Models": {
+        "title": "Beyond Play-to-Earn: Play and Own",
+        "description": "Fun first.\n\nOwnership second.\n\nSustainable economies.\n\nBetter model.\n\nGaming NFT interest?"
+    },
+    "Education Revolution Web3": {
+        "title": "Decentralized Education Systems",
+        "description": "Learn and earn.\n\nVerified creds.\n\nGlobal access.\n\nNo gatekeepers.\n\nEducation future?"
+    },
+    "Healthcare Data Ownership": {
+        "title": "Patients Owning Their Health Data",
+        "description": "Sell or share.\n\nPortable records.\n\nResearch incentives.\n\nPrivacy preserved.\n\nHealth data control?"
+    },
+    "Voting Systems Decentralized": {
+        "title": "On-Chain Voting at Scale",
+        "description": "Quadratic.\n\nIdentity tied.\n\nBribery resistant.\n\nBetter democracy.\n\nVoting NFT?"
+    },
+    "Governance at Scale": {
+        "title": "Millions Voting Without Chaos",
+        "description": "Delegation.\n\nReputation.\n\nFutures.\n\nSolving scale.\n\nLarge DAO experience?"
+    },
+    "Prediction Markets Maturity": {
+        "title": "Prediction Markets Finally Working",
+        "description": "Real money.\n\nAccurate odds.\n\nInformation aggregation.\n\nTruth serum.\n\nPrediction market user?"
+    },
+    "Oracle Improvements": {
+        "title": "Better Oracles: Less Manipulation",
+        "description": "Multiple sources.\n\nDecentralized.\n\nFaster updates.\n\nCritical infrastructure.\n\nOracle trust?"
+    },
+    "Data Availability Layers": {
+        "title": "DA Layers: Scaling Solution",
+        "description": "Celestia model.\n\nCheap data.\n\nRollup friendly.\n\nNew architecture.\n\nDA understanding?"
+    },
+    "Rollup-Centric Roadmap": {
+        "title": "Ethereum Rollup Future",
+        "description": "L1 for settlement.\n\nL2 for activity.\n\nScaling achieved.\n\nVision realizing.\n\nRollup user?"
+    },
+    "Modularity Benefits": {
+        "title": "Modular Blockchains Advantages",
+        "description": "Specialization.\n\nInnovation speed.\n\nChoice.\n\nFuture standard.\n\nModular fan?"
+    },
+    "Client-Side Proving": {
+        "title": "Prove on Device: Privacy Boost",
+        "description": "No server trust.\n\nFast verification.\n\nMobile possible.\n\nZK advancement.\n\nClient proving?"
+    },
+    "Full Homomorphic Encryption": {
+        "title": "Compute on Encrypted Data",
+        "description": "Privacy extreme.\n\nSlow but coming.\n\nGame changer.\n\nMedical, finance.\n\nFHE ready?"
+    },
+    "Privacy-Preserving DeFi": {
+        "title": "Private DeFi: Hiding Amounts",
+        "description": "Aztec, Tornado successor.\n\nShielded pools.\n\nCompliance hooks.\n\nPrivacy returns.\n\nPrivate DeFi need?"
+    },
+    "Sustainable Blockchain": {
+        "title": "Green Blockchains Leading",
+        "description": "Low energy.\n\nCarbon negative.\n\nRenewable.\n\nEnvironmental FUD dead.\n\nGreen chain?"
+    },
+    "Renewable Mining": {
+        "title": "Mining with Renewable Energy",
+        "description": "Geographic advantage.\n\nStranded energy.\n\nNot waste.\n\nSustainable model.\n\nMining view?"
+    },
+    "Carbon Negative Protocols": {
+        "title": "More Than Neutral: Carbon Negative",
+        "description": "Offset more than emit.\n\nKlima model.\n\nImpact tokens.\n\nClimate positive.\n\nNegative protocol?"
+    },
+    "Social Impact DAOs": {
+        "title": "DAOs for Good: Impact Investing",
+        "description": "Quadratic funding.\n\nPublic goods.\n\nTransparent.\n\nEffective altruism.\n\nImpact DAO?"
+    },
+    "Philanthropy On-Chain": {
+        "title": "Transparent Giving on Blockchain",
+        "description": "Track every dollar.\n\nDirect to recipients.\n\nNo overhead.\n\nTrust restored.\n\nDonate on-chain?"
+    },
+    "Transparent Aid Distribution": {
+        "title": "Aid Where It Matters",
+        "description": "No corruption.\n\nVerified receipt.\n\nConditional giving.\n\nReal impact.\n\nAid transparency?"
+    },
+    "Impact Measurement NFTs": {
+        "title": "NFTs Proving Real World Impact",
+        "description": "Tree planted.\n\nCarbon offset.\n\nEducation funded.\n\nProof attached.\n\nImpact collector?"
+    },
+    "PFP Avatars Are Played Out": {
+        "title": "PFPs Dead: Time for Utility Avatars",
+        "description": "Status symbol over.\n\nFunctional avatars.\n\nDynamic traits.\n\nBeyond pictures.\n\nStill PFP holder?"
+    },
+    "Generative Art Overhyped": {
+        "title": "Gen Art: Beautiful but Overvalued",
+        "description": "Algorithm cool.\n\nSupply unlimited.\n\nTrue scarcity rare.\n\nArt subjective.\n\nGen art fan?"
+    },
+    "1/1 Art Undervalued": {
+        "title": "1/1 Artists: Real Value in NFTs",
+        "description": "True scarcity.\n\nArtist reputation.\n\nHistory potential.\n\nUnderrated segment.\n\n1/1 collector?"
+    },
+    "Blue Chips Aren't Safe": {
+        "title": "No NFT Is Truly Safe",
+        "description": "Culture shifts.\n\nNew narratives.\n\nPast performance.\n\nDiversify anyway.\n\nBlue chip believer?"
+    },
+    "Alt L1s Are Distractions": {
+        "title": "Ethereum Ecosystem Wins Long Term",
+        "description": "Network effects.\n\nDeveloper mindshare.\n\nL2 scaling.\n\nOthers fade.\n\nETH maximalist?"
+    },
+    "Ethereum Will Dominate Forever": {
+        "title": "Ethereum Supremacy Thesis",
+        "description": "Most secure.\n\nMost decentralized.\n\nMost activity.\n\nWinner takes all.\n\nETH forever?"
+    },
+    "Solana Speed Irrelevant for NFTs": {
+        "title": "Speed Doesn't Matter for NFTs",
+        "description": "Centralization tradeoffs.\n\nOutages.\n\nNFTs not high frequency.\n\nReliability > speed.\n\nSolana NFT holder?"
+    },
+    "Layer 2 Fees Still Too High": {
+        "title": "L2 Fees: Not Low Enough Yet",
+        "description": "Blobs helped.\n\nStill not pennies.\n\nMass adoption barrier.\n\nMore work needed.\n\nL2 fee complaint?"
+    },
+    "Zero Royalties Is The Way": {
+        "title": "Zero Royalties Best for Liquidity",
+        "description": "Voluntary tips.\n\nNo trade friction.\n\nVolume explodes.\n\nCreators adapt.\n\nZero royalty?"
+    },
+    "Enforced Royalties Needed": {
+        "title": "Creators Deserve Enforced Royalties",
+        "description": "Incentive alignment.\n\nOptional failed.\n\nStandard level.\n\nFair compensation.\n\nEnforced supporter?"
+    },
+    "Creator Fees Innovation Required": {
+        "title": "New Creator Compensation Models",
+        "description": "Subscription.\n\nAccess.\n\nRevenue shares.\n\nBeyond royalties.\n\nInnovation needed."
+    },
+    "Marketplaces Should Be Protocols": {
+        "title": "Marketplaces as Protocols Not Companies",
+        "description": "Open source.\n\nCommunity owned.\n\nNo rent seeking.\n\nSudoswap model.\n\nProtocol marketplace?"
+    },
+    "Aggregators Killing Innovation": {
+        "title": "Aggregators Stifle New Marketplaces",
+        "description": "Route to lowest fee.\n\nRace to zero.\n\nNo differentiation.\n\nInnovation dies.\n\nAggregator effect?"
+    },
+    "Blur Farming Ruined Everything": {
+        "title": "Points Farming Distorted Markets",
+        "description": "Wash trading explosion.\n\nReal volume hard.\n\nShort term thinking.\n\nMarket damaged.\n\nBlur farmer?"
+    },
+    "Points Systems Are Ponzi": {
+        "title": "Points Systems: Unsustainable",
+        "description": "Infinite emission.\n\nDump pressure.\n\nUser acquisition cost.\n\nShort term boost.\n\nPoints critic?"
+    },
+    "Airdrops Devalue Tokens": {
+        "title": "Airdrops: Cheap Marketing",
+        "description": "Mercenary users.\n\nImmediate sell.\n\nLong term harm.\n\nBetter models.\n\nAirdrop farmer?"
+    },
+    "Vesting Is For Weak Teams": {
+        "title": "No Vesting = Confident Team",
+        "description": "Skin in game.\n\nNo slow rug.\n\nFull commitment.\n\nFair launch.\n\nNo vest opinion?"
+    },
+    "Anonymous Teams Red Flag": {
+        "title": "Anon Teams Usually Rug",
+        "description": "No accountability.\n\nPast examples.\n\nDoxxed better.\n\nRare exceptions.\n\nAnon trust?"
+    },
+    "Doxxed Teams Overrated": {
+        "title": "Doxxed Doesn't Guarantee Success",
+        "description": "Past failures.\n\nPrivacy matters.\n\nExecution > identity.\n\nAnon can win.\n\nDoxxed preference?"
+    },
+    "Roadmaps Are Lies": {
+        "title": "Roadmaps: Mostly Fiction",
+        "description": "Pivot common.\n\nDelays normal.\n\nDirection not promises.\n\nJudge by shipping.\n\nRoadmap believer?"
+    },
+    "Utility Promised Never Delivered": {
+        "title": "99% Utility Roadmaps Fail",
+        "description": "Overpromise.\n\nUnder deliver.\n\nFocus on now.\n\nShipping > promises.\n\nUtility rug?"
+    },
+    "Community Allocation Manipulation": {
+        "title": "Community Tokens Often Insider Controlled",
+        "description": "Multi wallets.\n\nTeam disguised.\n\nFair launch rare.\n\nCheck distribution.\n\nCommunity allocation trust?"
+    },
+    "Insider Mints Common": {
+        "title": "Insider Mints: Standard Practice",
+        "description": "Team takes best.\n\nVCs early.\n\nRetail last.\n\nUnfair advantage.\n\nInsider minted?"
+    },
+    "Sniping Is Fair Game": {
+        "title": "Sniping: Part of the Game",
+        "description": "Bots win.\n\nFaster internet.\n\nGas wars.\n\nFree market.\n\nSnipe or be sniped."
+    },
+    "Reveal Delays Suspicious": {
+        "title": "Delayed Reveals = Team Sniping",
+        "description": "Pick best traits.\n\nDump on reveal.\n\nCommon pattern.\n\nOn-reveal better.\n\nDelayed reveal experience?"
+    },
+    "Dutch Auctions Superior": {
+        "title": "Dutch Auctions Fairest Launch",
+        "description": "Price discovery.\n\nNo gas wars.\n\nNo bot advantage.\n\nBest model.\n\nDutch fan?"
+    },
+    "Fixed Price Mints Better": {
+        "title": "Fixed Price Simple and Effective",
+        "description": "Easy for retail.\n\nPredictable.\n\nAllowlist possible.\n\nStill works.\n\nFixed price?"
+    },
+    "Allowlist Corruption": {
+        "title": "Whitelists: Often Nepotism",
+        "description": "Friends and family.\n\nPaid spots.\n\nNot merit.\n\nPublic better.\n\nWL experience?"
+    },
+    "Public Mints Purest": {
+        "title": "Public Mints: Most Fair",
+        "description": "Everyone equal.\n\nNo favorites.\n\nTrue community.\n\nGas war only issue.\n\nPublic mint preference?"
+    },
+    "Marketing Budgets Wasted": {
+        "title": "Most Marketing Money Wasted",
+        "description": "Shills.\n\nAds.\n\nCelebrities.\n\nProduct wins.\n\nMarketing critique?"
+    },
+    "Influencers Paid Shills": {
+        "title": "Influencers: Mostly Paid Promotion",
+        "description": "Rare genuine.\n\nDisclosures rare.\n\nAlpha scarce.\n\nIgnore most.\n\nInfluencer trust?"
+    },
+    "Organic Growth Only Real": {
+        "title": "Organic Growth > Paid Hype",
+        "description": "Real users.\n\nSustainable.\n\nWord of mouth.\n\nPaid dies fast.\n\nOrganic project?"
+    },
+    "Discord Hype Fake": {
+        "title": "Discord Activity Often Bot Filled",
+        "description": "Bought members.\n\nRaid to earn.\n\nFake engagement.\n\nReal quiet better.\n\nDiscord check?"
+    },
+    "Twitter Spaces Echo Chambers": {
+        "title": "Spaces: Mostly Circle Jerk",
+        "description": "Same voices.\n\nNo real debate.\n\nHype sessions.\n\nLimited value.\n\nSpaces listener?"
+    },
+    "Bear Market Builds Real Projects": {
+        "title": "Bear Markets: Best Building Time",
+        "description": "No distractions.\n\nReal users.\n\nStrong teams.\n\nSurvivors win big.\n\nBuilding now?"
+    },
+    "Bull Market Exposes Scams": {
+        "title": "Bull Markets: Scams Thrive",
+        "description": "Greed blinds.\n\nRugs everywhere.\n\nFOMO dangerous.\n\nEasy money gone.\n\nBull cautious?"
+    },
+    "HODL Mindset Dangerous": {
+        "title": "Blind HODL Loses Money",
+        "description": "Take profits.\n\nReassess.\n\nMarkets change.\n\nNo forever.\n\nHODLer?"
+    },
+    "Take Profits Always": {
+        "title": "Always Take Profits",
+        "description": "No one regrets.\n\nHouse money.\n\nCycle repeats.\n\nGreed kills.\n\nProfit taker?"
+    }
+}
