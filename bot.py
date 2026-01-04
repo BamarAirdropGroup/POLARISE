@@ -40,240 +40,50 @@ def generate_random_email():
     username = ''.join(random.choices('abcdefghijklmnopqrstuvwxyz0123456789', k=12))
     return f"{username}@mailsac.com"
 
-POLARISE_TOPICS = {
-    "core_protocol": [
-        "ERC-1000: The Game-Changer NFT Standard",
-        "NFT Liquidity Crisis: The Problem We're Solving",
-        "Flash Trade Explained: Instant NFT Swaps",
-        "P-Tokens: Your NFT's Liquid Twin"
-    ],
-    "defi_tools": [
-        "100% LTV Loans: Too Good to Be True?",
-        "Leverage in NFT Trading Without Getting Rekt",
-        "Consignment: Get Paid Now, Sell Later",
-        "Multi-Chain Strategy: Why It Matters"
-    ],
-    "nft_ecosystem": [
-        "Beyond JPEGs: Real NFT Utility",
-        "Non-Standard Assets (NSA) Market Explained",
-        "NFT Gaming & Metaverse Integration",
-        "Digital Art vs Financial Assets: The Debate"
-    ],
-    "platform": [
-        "Polarise Testnet: Your First Steps",
-        "From PawnFi to Polarise: The Rebrand Story",
-        "Security First: How We Protect Your Assets",
-        "User Experience Revolution in NFT DeFi"
-    ],
-    "insights": [
-        "The NFT Market: Dead or Just Getting Started?",
-        "DeFi + NFTs: Why It Took So Long",
-        "Institutional Money & NFT Liquidity",
-        "Web3's Biggest Lie: You Own Your Assets"
-    ],
-    "market_analysis": [
-        "NFT Floor Price Dynamics Explained",
-        "Volatility: Friend or Foe in NFT Markets?",
-        "The Liquidity Premium: Why It Matters",
-        "Market Cycles & Timing Your NFT Strategy"
-    ],
-    "educational": [
-        "NFT Liquidity 101: A Beginner's Guide",
-        "Smart Contracts Demystified for Normies",
-        "Tokenomics: The $PFT Guide",
-        "Risk Management for NFT Holders"
-    ],
-    "future_vision": [
-        "The Next Evolution of NFTs",
-        "Building the Future of Digital Ownership"
-    ],
-    "hot_takes": [
-        "OpenSea is Dead (And That's Good)",
-        "Why Most NFT Projects Deserve to Fail",
-        "The Truth About NFT Communities",
-        "Royalties Are Killing NFTs",
-        "DAOs Don't Work (Yet)",
-        "The Metaverse Hype Was a Lie",
-        "Why I'm Bullish on NFTs But Bearish on Your Project",
-        "The Real Reason You Can't Sell Your NFT",
-        "Crypto Twitter Is Ruining Crypto",
-        "If You Don't Understand Liquidity, You Don't Understand NFTs"
-    ]
-}
 
-COMMENT_LIST = [
-    "Good", "Great", "Nice", "Awesome", "Cool", "Well done", "Good job", "Solid", "Perfect", "Amazing",
-    "GM", "GM Mate", "Good Morning", "Morning Mate", "Morning all", "GM everyone", "Rise and shine", "Morning vibes", "Fresh start", "New day",
-    "GN", "GN Mate", "Good Night", "Night Mate", "Sleep well", "Sweet dreams", "Rest well", "Night vibes", "Time to rest", "See you tomorrow",
-    "Hello", "Hello Mate", "Hi", "Hi Mate", "Hey", "Hey Mate", "Yo", "Yo Mate", "What's up", "Sup Mate",
-    "Agree", "Totally agree", "Absolutely", "Indeed", "Exactly", "True", "Well said", "Makes sense", "Facts", "100% agree",
-    "LFG", "Let's go", "Keep going", "On fire", "Bullish", "WAGMI", "To the moon", "Big vibes", "Strong move", "Nice play",
-    "Follow me", "Follow back", "Let's connect", "Support each other", "Stay connected", "See you around", "Much respect", "Cheers", "Salute", "Respect"
-]
+def load_topics_from_json():
+    """Load topics from topic.json file"""
+    try:
+        with open('topic.json', 'r', encoding='utf-8') as f:
+            topics_data = json.load(f)
+        return topics_data
+    except FileNotFoundError:
+        raise FileNotFoundError(f"{Fore.RED}topic.json not found. Please create topic.json file.{Style.RESET_ALL}")
+    except Exception as e:
+        raise Exception(f"{Fore.RED}Error loading topic.json: {e}{Style.RESET_ALL}")
 
-# Pre-generated content for each topic
-TOPIC_CONTENTS = {
-    "ERC-1000: The Game-Changer NFT Standard": {
-        "title": "ERC-1000: This Changes Everything for NFTs",
-        "description": "Remember when ERC-20 changed DeFi forever? ERC-1000 is about to do the same for NFTs.\n\nForget about illiquid JPEGs collecting digital dust. ERC-1000 introduces native liquidity pools, instant swaps, and fractional ownership baked right into the standard.\n\nThis isn't just another token standard—it's a complete rethinking of what NFTs can BE.\n\nWhat's your take? Will this finally solve NFT liquidity?"
-    },
-    "NFT Liquidity Crisis: The Problem We're Solving": {
-        "title": "The Dirty Secret No One Talks About: NFT Liquidity",
-        "description": "Here's a hard truth: 95% of NFTs are basically worthless because they CAN'T BE SOLD.\n\nFloor prices? Meaningless when there's zero volume.\n\nYou're not investing—you're speculating on greater fools.\n\nPolarise isn't just another platform. We're solving the fundamental flaw in the NFT market.\n\nThoughts? Have you ever been stuck with an NFT you couldn't sell?"
-    },
-    "Flash Trade Explained: Instant NFT Swaps": {
-        "title": "NFT Trading at Light Speed: Flash Trades Explained",
-        "description": "Ever tried to sell an NFT and waited days for a buyer? Those days are OVER.\n\nFlash trades = instant NFT swaps with zero slippage.\n\nIt's like Uniswap for NFTs, but faster and smarter.\n\nNo more praying for buyers. No more race to the bottom on price.\n\nGame-changing or overhyped? Let's discuss!"
-    },
-    "P-Tokens: Your NFT's Liquid Twin": {
-        "title": "Unlock Your NFT's Value Instantly with P-Tokens",
-        "description": "Your NFT is stuck in your wallet? Not anymore.\n\nP-Tokens = instant liquidity for ANY NFT.\n\n1️⃣ Wrap your NFT\n2️⃣ Get P-Tokens\n3️⃣ Trade, lend, or leverage immediately\n\nIt's like having your cake and eating it too.\n\nAnyone tried this yet? Thoughts on the risks?"
-    },
-    "100% LTV Loans: Too Good to Be True?": {
-        "title": "100% LTV on NFTs: Revolutionary or Reckless?",
-        "description": "100% loan-to-value on NFTs sounds impossible... until now.\n\nTraditional finance would call this crazy. We call it innovation.\n\nRisk? Managed by real-time price oracles and dynamic collateral ratios.\n\nThis could unlock BILLIONS in trapped NFT value.\n\nToo good to be true? Or the future of NFT finance?"
-    },
-    "Leverage in NFT Trading Without Getting Rekt": {
-        "title": "NFT Leverage: Your Fast Track to Gains (or Losses)",
-        "description": "Leverage trading NFTs = 10x your gains or 100x your losses.\n\nPolarise gives you the tools but YOU need the strategy.\n\nKey rules:\n1. Never go all-in\n2. Set stop losses\n3. Understand the asset\n\nUsed leverage before? Share your best/worst experiences!"
-    },
-    "Consignment: Get Paid Now, Sell Later": {
-        "title": "Consignment: The Smart NFT Seller's Secret Weapon",
-        "description": "Why wait months to sell your NFT when you can get paid NOW?\n\nConsignment = instant liquidity + future upside.\n\nIt's like getting a loan AND keeping ownership benefits.\n\nPerfect for:\n- Projects with long-term potential\n- Undervalued gems\n- Strategic holdings\n\nUnderrated feature or too complex for most users?"
-    },
-    "Multi-Chain Strategy: Why It Matters": {
-        "title": "Stuck on One Chain? You're Missing the Big Picture",
-        "description": "Ethereum maxis vs Solana degens vs Polygon enthusiasts...\n\nWhy choose when you can have ALL of them?\n\nMulti-chain isn't just a feature—it's a survival strategy.\n\nDifferent chains = different communities = different opportunities.\n\nAre you multi-chain yet? Which chain has surprised you most?"
-    },
-    "Beyond JPEGs: Real NFT Utility": {
-        "title": "NFTs Are More Than JPEGs (Despite What Critics Say)",
-        "description": "JPEGs were just the beginning.\n\nReal NFT utility:\n- Access tokens\n- Identity verification\n- Royalty streams\n- Governance rights\n- Real-world asset ownership\n\nThe JPEG phase was necessary... but we're moving BEYOND.\n\nWhat's the most innovative NFT use case you've seen?"
-    },
-    "Non-Standard Assets (NSA) Market Explained": {
-        "title": "NSA: The Hidden Gem of NFT Markets",
-        "description": "Forget boring standards. NSA = Non-Standard Assets.\n\nThese are the weird, unique, complex digital assets that don't fit in boxes.\n\nThink:\n- Fractionalized real estate\n- Complex financial instruments\n- Multi-asset bundles\n\nNSA market could be 10x larger than 'regular' NFTs.\n\nDiscover any cool NSAs lately?"
-    },
-    "NFT Gaming & Metaverse Integration": {
-        "title": "NFT Gaming: The Next Billion-Dollar Industry",
-        "description": "Gaming + NFTs = perfect match.\n\nFinally, TRUE digital ownership in games.\n\nCross-game assets, player-driven economies, actual value creation.\n\nForget play-to-earn. This is OWN-to-earn.\n\nWhich NFT game has impressed you most?"
-    },
-    "Digital Art vs Financial Assets: The Debate": {
-        "title": "Are NFTs Art or Financial Assets? (Answer: BOTH)",
-        "description": "The eternal debate: Art vs Finance.\n\nWhy can't they be both?\n\nGreat art has ALWAYS been a financial asset.\n\nDigital art NFTs just make it accessible and liquid.\n\nStop arguing about definitions. Start creating value.\n\nWhere do you stand on this debate?"
-    },
-    "Polarise Testnet: Your First Steps": {
-        "title": "Polarise Testnet: Play with Real Money (But Not Really)",
-        "description": "Testnets are boring... until you're playing with real concepts.\n\nPolarise testnet = risk-free experimentation with REAL features.\n\nTry everything:\n- Flash trades\n- 100% LTV loans\n- Consignment\n\nZero risk, maximum learning.\n\nAlready tested? Share your experience!"
-    },
-    "From PawnFi to Polarise: The Rebrand Story": {
-        "title": "PawnFi to Polarise: More Than Just a Name Change",
-        "description": "PawnFi was good... but Polarise is GREAT.\n\nWhy rebrand?\n1. Broader vision\n2. Beyond just 'pawn' services\n3. Complete NFT finance ecosystem\n\nSometimes you outgrow your name. We definitely did.\n\nWhat do you think of the new name/brand?"
-    },
-    "Security First: How We Protect Your Assets": {
-        "title": "NFT Security: Our #1 Priority (And It Should Be Yours Too)",
-        "description": "Lose your NFTs = lose everything.\n\nOur security approach:\n- Multi-sig everything\n- Regular audits\n- Insurance funds\n- Bug bounties\n\nBut remember: NOT YOUR KEYS, NOT YOUR NFTS.\n\nWhat security practices do you follow?"
-    },
-    "User Experience Revolution in NFT DeFi": {
-        "title": "NFT DeFi Doesn't Have to Be Complicated (Seriously)",
-        "description": "Most DeFi platforms look like airplane dashboards.\n\nOurs? Simple, intuitive, HUMAN.\n\nGood UX isn't a luxury—it's a requirement for mass adoption.\n\nIf your grandma can't use it, you're doing it wrong.\n\nBest UX you've seen in DeFi?"
-    },
-    "The NFT Market: Dead or Just Getting Started?": {
-        "title": "NFT Market Report: Far From Dead, Just Getting Interesting",
-        "description": "Headlines say NFTs are dead. Data says otherwise.\n\nWhat's changing:\n- Less speculation, more utility\n- Institutional interest growing\n- Real-world use cases emerging\n\nThe 'easy money' phase is over. The REAL phase is just beginning.\n\nBullish or bearish on NFTs?"
-    },
-    "DeFi + NFTs: Why It Took So Long": {
-        "title": "DeFi + NFTs: The Marriage That Should Have Happened Years Ago",
-        "description": "Why did it take so long to combine DeFi and NFTs?\n\nTechnical challenges:\n- Non-fungible vs fungible\n- Valuation problems\n- Liquidity issues\n\nBut the wait was worth it. The synergy is incredible.\n\nWhy do you think it took this long?"
-    },
-    "Institutional Money & NFT Liquidity": {
-        "title": "Institutional Money Is Coming to NFTs (And It Changes Everything)",
-        "description": "When institutions enter NFTs, liquidity problems disappear.\n\nBut there's a catch: They need infrastructure.\n\nThat's where we come in.\n\nInstitutional-grade tools for institutional money.\n\nGood or bad for the space?"
-    },
-    "Web3's Biggest Lie: You Own Your Assets": {
-        "title": "The Hard Truth: You Don't Really 'Own' Your Web3 Assets",
-        "description": "Here's an unpopular truth: Full ownership in Web3 is a myth.\n\nReality:\n- Protocol risk\n- Smart contract risk\n- Centralized exchange risk\n- Regulatory risk\n\nTrue ownership = understanding AND managing these risks.\n\nControversial take or hard truth?"
-    },
-    "NFT Floor Price Dynamics Explained": {
-        "title": "Floor Prices Are Mostly Meaningless (Here's Why)",
-        "description": "Obsessing over floor prices? You're missing the point.\n\nFloor price ≠ liquidity\nFloor price ≠ demand\nFloor price ≠ value\n\nIt's just ONE metric, and often the least important one.\n\nWhat metrics do YOU actually watch?"
-    },
-    "Volatility: Friend or Foe in NFT Markets?": {
-        "title": "NFT Volatility: Your Best Friend or Worst Enemy?",
-        "description": "Volatility = risk = opportunity.\n\nThe key isn't avoiding volatility—it's USING it.\n\nBuy when there's blood in the streets. Sell when there's hype.\n\nEasier said than done, obviously.\n\nHow do you handle NFT volatility?"
-    },
-    "The Liquidity Premium: Why It Matters": {
-        "title": "Liquidity Premium: The Most Important Concept in NFT Investing",
-        "description": "Liquid assets trade at a PREMIUM.\n\nIlliquid assets = discount.\n\nThe liquidity premium can be 50%+ for NFTs.\n\nTranslation: Your NFT is worth LESS if you can't sell it easily.\n\nAre you factoring liquidity into your NFT buys?"
-    },
-    "Market Cycles & Timing Your NFT Strategy": {
-        "title": "NFT Market Cycles: When to Buy, When to Sell, When to HODL",
-        "description": "Market cycles exist. Ignore them at your peril.\n\nGeneral rule:\n- Buy in bear markets\n- Sell in bull markets\n- Build in between\n\nSimple in theory. Hard in practice.\n\nWhat phase do you think we're in now?"
-    },
-    "NFT Liquidity 101: A Beginner's Guide": {
-        "title": "NFT Liquidity for Beginners (No Jargon, I Promise)",
-        "description": "New to NFTs? Confused by 'liquidity' talk?\n\nSimple analogy:\nLiquidity = how easily you can buy/sell something.\n\nHigh liquidity = easy to trade\nLow liquidity = hard to trade\n\nThat's it. Start there.\n\nWhat confused you most when starting with NFTs?"
-    },
-    "Smart Contracts Demystified for Normies": {
-        "title": "Smart Contracts Aren't That Smart (And That's Okay)",
-        "description": "Smart contracts = digital vending machines.\n\nPut something in → Get something out.\n\nNo magic. No AI. Just code doing what it's told.\n\nThe 'smart' part is they execute automatically.\n\nStill confused? Ask me anything!"
-    },
-    "Tokenomics: The $PFT Guide": {
-        "title": "$PFT Tokenomics: More Than Just Another Governance Token",
-        "description": "$PFT isn't just for voting (though you can do that too).\n\nReal utility:\n- Fee discounts\n- Staking rewards\n- Protocol incentives\n- Governance rights\n\nTokenomics matter. Ours are designed for LONG-TERM growth.\n\nWhat makes good tokenomics in your view?"
-    },
-    "Risk Management for NFT Holders": {
-        "title": "NFT Risk Management: Don't Learn This the Hard Way",
-        "description": "NFT losses hurt more than crypto losses. Here's how to avoid them:\n\n1. Diversify (yes, even with NFTs)\n2. Never invest more than you can lose\n3. Have an exit strategy\n4. Understand what you're buying\n\nWhat's your #1 risk management rule?"
-    },
-    "The Next Evolution of NFTs": {
-        "title": "The Next NFT Evolution: What Comes After JPEGs?",
-        "description": "We're at NFT 2.0. What does 3.0 look like?\n\nMy predictions:\n- Dynamic NFTs\n- AI-generated assets\n- Cross-chain composability\n- Real-world integration\n\nToo optimistic? What's YOUR prediction?"
-    },
-    "Building the Future of Digital Ownership": {
-        "title": "Digital Ownership: The Future We're Building Together",
-        "description": "Digital ownership isn't just about NFTs.\n\nIt's about control, rights, and value in the digital world.\n\nWe're building tools for THAT future.\n\nNot just trading cards. Not just art.\n\nThe foundation of digital property rights.\n\nWhat does digital ownership mean to YOU?"
-    },
-    "OpenSea is Dead (And That's Good)": {
-        "title": "OpenSea's Decline: Natural Evolution or Failure?",
-        "description": "OpenSea dominated... until it didn't.\n\nWhat happened?\n1. Complacency\n2. High fees\n3. Stagnant innovation\n4. Competition\n\nTheir decline creates SPACE for innovation.\n\nGood for the ecosystem overall.\n\nRIP OpenSea or too early to call?"
-    },
-    "Why Most NFT Projects Deserve to Fail": {
-        "title": "Hard Truth: 99% of NFT Projects SHOULD Fail",
-        "description": "Not every project deserves to succeed.\n\nMany are:\n- Cash grabs\n- Copycats\n- No utility\n- Bad teams\n\nFailure isn't bad—it's NECESSARY for a healthy ecosystem.\n\nSurvival of the fittest applies to NFTs too.\n\nAgree or too harsh?"
-    },
-    "The Truth About NFT Communities": {
-        "title": "NFT 'Communities': Real Connection or Illusion?",
-        "description": "NFT communities promise connection... but often deliver hype.\n\nReal community = shared values + mutual support\nFake community = price talk + empty promises\n\nWhich ones have you found? The real deal or just noise?"
-    },
-    "Royalties Are Killing NFTs": {
-        "title": "Royalty Debate: Necessary Incentive or Growth Killer?",
-        "description": "Royalties sounded great... until they didn't.\n\nProblem: They discourage trading.\nSolution: Find better incentives.\n\nCreators deserve rewards. But not at the cost of LIQUIDITY.\n\nThere's a middle ground. We need to find it.\n\nWhere do you stand on royalties?"
-    },
-    "DAOs Don't Work (Yet)": {
-        "title": "DAO Reality Check: Great in Theory, Messy in Practice",
-        "description": "DAOs promise decentralized governance... but often deliver gridlock.\n\nCurrent problems:\n- Voter apathy\n- Whale dominance\n- Slow decisions\n- Legal uncertainty\n\nThe concept is revolutionary. The execution needs work.\n\nBeen in a DAO? Share your experience!"
-    },
-    "The Metaverse Hype Was a Lie": {
-        "title": "Metaverse Reality Check: We're Not Ready (And That's Okay)",
-        "description": "The metaverse hype peaked... then crashed.\n\nWhy?\n- Terrible UX\n- No real utility\n- Corporate takeover\n- Tech not ready\n\nThe vision is still valid. But we're years away from execution.\n\nToo pessimistic or realistic assessment?"
-    },
-    "Why I'm Bullish on NFTs But Bearish on Your Project": {
-        "title": "NFTs Are Amazing... But Your Project Probably Isn't",
-        "description": "NFT technology = revolutionary\nYour monkey JPEG project = probably not\n\nBeing bullish on NFTs doesn't mean being bullish on EVERY NFT.\n\nDiscrimination is GOOD. Be picky.\n\nWhat makes an NFT project ACTUALLY good?"
-    },
-    "The Real Reason You Can't Sell Your NFT": {
-        "title": "Can't Sell Your NFT? Here's the Real Reason",
-        "description": "It's not the market. It's not bad luck.\n\nThe reason: NOBODY WANTS IT.\n\nHarsh but true. Value = what someone will pay.\n\nIf no one's buying, your NFT isn't worth what you think.\n\nBeen there? What did you learn?"
-    },
-    "Crypto Twitter Is Ruining Crypto": {
-        "title": "CT Is Broken: How Crypto Twitter Hurts More Than Helps",
-        "description": "Crypto Twitter used to be about ideas. Now it's about:\n- Clout chasing\n- Fake alpha\n- Tribal warfare\n- Signal boosting\n\nThe noise is drowning out the signal.\n\nTime for a reset. Or am I just getting old?"
-    },
-    "If You Don't Understand Liquidity, You Don't Understand NFTs": {
-        "title": "NFT Mastery Starts with Understanding Liquidity",
-        "description": "You can know everything about art, tech, and trends...\n\nBut if you don't understand liquidity, you don't understand NFT VALUE.\n\nLiquidity = exit options = REAL value\n\nMaster this first. Everything else comes after.\n\nHow long did it take you to understand liquidity?"
-    }
-}
+
+def load_topic_contents_from_json():
+    """Load topic contents from topic_contents.json file"""
+    try:
+        with open('topic_contents.json', 'r', encoding='utf-8') as f:
+            contents_data = json.load(f)
+        return contents_data
+    except FileNotFoundError:
+        raise FileNotFoundError(f"{Fore.RED}topic_contents.json not found. Please create topic_contents.json file.{Style.RESET_ALL}")
+    except Exception as e:
+        raise Exception(f"{Fore.RED}Error loading topic_contents.json: {e}{Style.RESET_ALL}")
+
+
+def load_comments_from_json():
+    """Load comments from comment.json file"""
+    try:
+        with open('comment.json', 'r', encoding='utf-8') as f:
+            comments_data = json.load(f)
+        
+        
+        if isinstance(comments_data, dict) and "comments" in comments_data:
+            return comments_data.get("comments", [])
+        elif isinstance(comments_data, list):
+            return comments_data
+        else:
+            raise ValueError(f"{Fore.RED}comment.json format not recognized. It should be an array or object with 'comments' key.{Style.RESET_ALL}")
+            
+    except FileNotFoundError:
+        raise FileNotFoundError(f"{Fore.RED}comment.json not found. Please create comment.json file.{Style.RESET_ALL}")
+    except Exception as e:
+        raise Exception(f"{Fore.RED}Error loading comment.json: {e}{Style.RESET_ALL}")
+
 
 class Polarise:
     def __init__(self) -> None:
@@ -364,6 +174,8 @@ class Polarise:
         self.HEADERS = {}
         self.api_key = None
         self.all_topics = []
+        self.comment_list = []
+        self.topic_contents = {}
         self.proxies = []
         self.proxy_index = 0
         self.account_proxies = {}
@@ -371,7 +183,7 @@ class Polarise:
         self.auth_tokens = {}
         self.nonce = {}
         self.sub_id = {}
-        self.faucet_tx_hashes = {}  # Store faucet tx hashes
+        self.faucet_tx_hashes = {}  
     
     def clear_terminal(self):
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -423,13 +235,16 @@ class Polarise:
     
     def load_all_topics(self):
         try:
+            
+            topics_data = load_topics_from_json()
             all_topics = []
-            for category, topics in POLARISE_TOPICS.items():
-                all_topics.extend(topics)
+            for category, topics in topics_data.items():
+                if isinstance(topics, list):
+                    all_topics.extend(topics)
             return all_topics
         except Exception as e:
-            self.log(f"{Fore.RED}Failed to load topics: {e}{Style.RESET_ALL}")
-            return []
+            self.log(f"{Fore.RED}Failed to load topics: {str(e)}{Style.RESET_ALL}")
+            raise e
        
     def load_accounts(self):
         try:
@@ -644,8 +459,8 @@ class Polarise:
         extra_dict = {
             "tx_hash": tx_hash,
             "from": address,
-            "to": address,  # Faucet sends to same address
-            "value": "1000000"  # 1 token in wei
+            "to": address,  
+            "value": "1000000"  
         }
         return json.dumps(extra_dict)
     
@@ -1114,25 +929,30 @@ class Polarise:
                 return None
     
     async def generate_content(self, topic: str):
-        """Generate content without using external APIs"""
+        """Generate content from topic_contents.json file"""
         try:
-            # Check if we have pre-generated content for this topic
-            if topic in TOPIC_CONTENTS:
-                return TOPIC_CONTENTS[topic]
-           
-            # Fallback: generate simple content if topic not in pre-generated list
-            title = f"Discussion: {topic}"
-            description = f"""Let's talk about {topic}!
+            
+            if not self.topic_contents:
+                self.topic_contents = load_topic_contents_from_json()
+            
+            
+            if topic in self.topic_contents:
+                return self.topic_contents[topic]
+            else:
+                
+                self.log(f"{Fore.YELLOW}⚠ Content for topic '{topic}' not found in topic_contents.json{Style.RESET_ALL}")
+                title = f"Discussion: {topic}"
+                description = f"""Let's talk about {topic}!
 This is an important topic for anyone interested in NFT liquidity and DeFi. Polarise Protocol is at the forefront of solving the NFT liquidity crisis.
 What are your thoughts on this? Do you agree or disagree with the current approaches?
 Share your insights below! 🚀
 #NFT #DeFi #Liquidity #PolariseProtocol"""
-           
-            return {
-                "title": title,
-                "description": description,
-                "topic": topic
-            }
+               
+                return {
+                    "title": title,
+                    "description": description,
+                    "topic": topic
+                }
            
         except Exception as e:
             self.log(f"{Fore.RED}✗ Create content failed: {str(e)}{Style.RESET_ALL}")
@@ -1554,7 +1374,10 @@ Share your insights below! 🚀
                             post_id = square.get("id")
                             sub_address = square.get("user_wallet")
                             if task_id == 10:
-                                content = random.choice(COMMENT_LIST)
+                                
+                                if not self.comment_list:
+                                    self.comment_list = load_comments_from_json()
+                                content = random.choice(self.comment_list)
                                 self.log(f"{Fore.CYAN}Post ID: {post_id}{Style.RESET_ALL}")
                                 self.log(f"{Fore.CYAN}Comment: {content}{Style.RESET_ALL}")
                                 save_comment = await self.save_comment(address, user_id, post_id, content, use_proxy)
@@ -1609,7 +1432,7 @@ Share your insights below! 🚀
                     err_msg = task_list.get("msg", "Unknown Error")
                     self.log(f"{Fore.RED}✗ Fetch task list failed: {err_msg}{Style.RESET_ALL}")
            
-            # Add delay between accounts
+            
             await asyncio.sleep(5)
 
     async def process_accounts_with_email(self, email: str, account: str, address: str, use_proxy: bool, rotate_proxy: bool):
@@ -1630,11 +1453,11 @@ Share your insights below! 🚀
                     self.log(f"{Fore.CYAN}Points: {exchange_points}{Style.RESET_ALL}")
                     self.log(f"{Fore.CYAN}Balance: {cumulative_revenue} GRISE{Style.RESET_ALL}")
                     
-                    # Bind email first (task_id: 3)
+                    
                     self.log(f"{Fore.CYAN}▶ Binding email: {email}{Style.RESET_ALL}")
                     await self.bind_email_task(address, email, use_proxy)
                     
-                    # Continue with other tasks...
+                    
                     if exchange_points >= 100:
                         used_points = (exchange_points // 100) * 100
                         swap = await self.swap_points(account, address, user_id, username, used_points, use_proxy)
@@ -1656,7 +1479,7 @@ Share your insights below! 🚀
                     err_msg = profile.get("msg", "Unknown Error")
                     self.log(f"{Fore.RED}✗ Fetch profile failed: {err_msg}{Style.RESET_ALL}")
             
-            # Continue with other tasks as before...
+            
             task_list = await self.task_list(address, use_proxy)
             if task_list:
                 if task_list.get("code") == "200":
@@ -1668,7 +1491,7 @@ Share your insights below! 🚀
                         reward = task.get("points")
                         state = task.get("state")
                         
-                        # Skip email binding task since we already did it
+                        
                         if task_id == 3:
                             self.log(f"{Fore.YELLOW}✓ {title}: Already completed{Style.RESET_ALL}")
                             continue
@@ -1677,10 +1500,10 @@ Share your insights below! 🚀
                             self.log(f"{Fore.YELLOW}✓ {title}: Already completed{Style.RESET_ALL}")
                             continue
                         
-                        # Process other tasks...
-                        if task_id == 1:  # Faucet task
+                        
+                        if task_id == 1:  
                             self.log(f"{Fore.CYAN}▶ {title}{Style.RESET_ALL}")
-                            # Check if we have a faucet tx hash for this account
+                            
                             if address in self.faucet_tx_hashes:
                                 tx_hash = self.faucet_tx_hashes[address]
                                 self.log(f"{Fore.CYAN}Completing faucet task with tx: {tx_hash}{Style.RESET_ALL}")
@@ -1689,10 +1512,10 @@ Share your insights below! 🚀
                                 self.log(f"{Fore.YELLOW}⚠ No faucet tx hash found for this account{Style.RESET_ALL}")
                             continue
                         
-                        # ... (other task processing continues)
+                        
             
-            # Add delay between accounts
-            await asyncio.sleep(5)
+            
+            await asyncio.sleep(3)
     
     async def main_with_email_binding(self):
         """Main function for running with email binding from mail.txt"""
@@ -1702,7 +1525,10 @@ Share your insights below! 🚀
                 self.log(f"{Fore.RED}No accounts loaded from mail.txt. Create mail.txt file with email:privatekey format.{Style.RESET_ALL}")
                 return
             
+            
             self.all_topics = self.load_all_topics()
+            self.comment_list = load_comments_from_json()
+            self.topic_contents = load_topic_contents_from_json()
            
             proxy_choice, rotate_proxy = self.print_question()
             
@@ -1736,7 +1562,7 @@ Share your insights below! 🚀
                 self.log(f"{Fore.CYAN}{'='*50}{Style.RESET_ALL}")
                 self.log(f"{Fore.GREEN}All accounts processed!{Style.RESET_ALL}")
                
-                # Wait 24 hours before next run
+                
                 seconds = 24 * 60 * 60
                 while seconds > 0:
                     formatted_time = self.format_seconds(seconds)
@@ -1746,10 +1572,10 @@ Share your insights below! 🚀
                     )
                     await asyncio.sleep(1)
                     seconds -= 1
-                print() # New line after countdown
+                print() 
        
         except Exception as e:
-            self.log(f"{Fore.RED}Error: {e}{Style.RESET_ALL}")
+            self.log(f"{Fore.RED}Error: {str(e)}{Style.RESET_ALL}")
             raise e
 
     async def main(self):
@@ -1759,7 +1585,11 @@ Share your insights below! 🚀
             if not accounts:
                 self.log(f"{Fore.RED}No accounts loaded. Create accounts.txt file.{Style.RESET_ALL}")
                 return
+            
+            
             self.all_topics = self.load_all_topics()
+            self.comment_list = load_comments_from_json()
+            self.topic_contents = load_topic_contents_from_json()
            
             proxy_choice, rotate_proxy = self.print_question()
             while True:
@@ -1787,12 +1617,12 @@ Share your insights below! 🚀
                             "Sec-Fetch-Site": "same-site",
                             "User-Agent": FakeUserAgent().random
                         }
-                        # Call the original process_accounts method
+                        
                         await self.process_accounts(account, address, use_proxy, rotate_proxy)
                 self.log(f"{Fore.CYAN}{'='*50}{Style.RESET_ALL}")
                 self.log(f"{Fore.GREEN}All accounts processed!{Style.RESET_ALL}")
                
-                # Wait 24 hours before next run
+                
                 seconds = 24 * 60 * 60
                 while seconds > 0:
                     formatted_time = self.format_seconds(seconds)
@@ -1802,10 +1632,10 @@ Share your insights below! 🚀
                     )
                     await asyncio.sleep(1)
                     seconds -= 1
-                print() # New line after countdown
+                print() 
        
         except Exception as e:
-            self.log(f"{Fore.RED}Error: {e}{Style.RESET_ALL}")
+            self.log(f"{Fore.RED}Error: {str(e)}{Style.RESET_ALL}")
             raise e
         
 class PolariseRegisterBot:
@@ -1842,12 +1672,12 @@ class PolariseRegisterBot:
     def get_proxy_connector(self):
         if self.proxies:
             proxy = random.choice(self.proxies)
-            # Support http, https, socks5
+            
             if proxy.startswith("http://") or proxy.startswith("https://"):
                 return ProxyConnector(proxy_type=ProxyType.HTTP, host=proxy.split("://")[1].split(":")[0], port=int(proxy.split(":")[-1].split("@")[-1] if "@" in proxy else proxy.split(":")[-1]))
             elif proxy.startswith("socks5://"):
                 return ProxyConnector(proxy_type=ProxyType.SOCKS5, host=proxy.split("://")[1].split(":")[0], port=int(proxy.split(":")[1]))
-            # Add basic auth if needed (format user:pass@ip:port)
+            
         return None
     
     def create_new_wallet(self):
@@ -1994,7 +1824,7 @@ class PolariseRegisterBot:
             
             data = {
                 "user_wallet": wallet_address.lower(),
-                "task_id": 1,  # Faucet task ID
+                "task_id": 1,  
                 "extra_info": extra_info,
                 "chain_name": "polarise"
             }
@@ -2030,7 +1860,7 @@ class PolariseRegisterBot:
                 'authorization': f'Bearer {auth_token} {sid} {wallet_address} polarise'
             }
             
-            # Generate random email
+            
             email = generate_random_email()
             
             data = {
@@ -2055,11 +1885,11 @@ class PolariseRegisterBot:
     
     def save_account_info(self, email, private_key, tx_hash=None):
         """Save account info to both wallet.txt and mail.txt"""
-        # Save to wallet.txt (private key only)
+        
         with open("wallet.txt", "a") as f:
             f.write(private_key + "\n")
         
-        # Save to mail.txt (email:privatekey:tx_hash)
+        
         if tx_hash:
             with open("mail.txt", "a") as f:
                 f.write(f"{email}:{private_key}:{tx_hash}\n")
@@ -2078,11 +1908,11 @@ class PolariseRegisterBot:
         for i in range(num_accounts):
             print(f"\n{Fore.CYAN}[{i+1}/{num_accounts}] Creating new wallet...{Style.RESET_ALL}")
             
-            # Create wallet
+            
             pk, addr = self.create_new_wallet()
             print(f"{Fore.CYAN}Address: {addr}{Style.RESET_ALL}")
             
-            # Login
+            
             auth = None
             sid = None
             for attempt in range(1, 11):
@@ -2096,7 +1926,7 @@ class PolariseRegisterBot:
                 print(f"{Fore.RED}Login failed after 10 attempts - skipping this wallet{Style.RESET_ALL}")
                 continue
             
-            # Solve captcha for faucet
+            
             captcha = None
             for attempt in range(1, 5):
                 captcha = self.solve_captcha()
@@ -2106,16 +1936,16 @@ class PolariseRegisterBot:
             
             tx_hash = None
             if captcha:
-                # Claim faucet FIRST
+                
                 print(f"{Fore.CYAN}Claiming 0.1 from faucet...{Style.RESET_ALL}")
                 tx_hash = self.claim_faucet(addr, captcha)
                 
                 if tx_hash:
-                    # Complete faucet task SECOND
+                    
                     print(f"{Fore.CYAN}Completing faucet task...{Style.RESET_ALL}")
                     self.complete_faucet_task(addr, auth, sid, tx_hash)
                     
-                    # Bind email THIRD (after faucet)
+                    
                     print(f"{Fore.CYAN}Binding email...{Style.RESET_ALL}")
                     email = self.bind_email(addr, auth, sid)
                     
@@ -2129,10 +1959,10 @@ class PolariseRegisterBot:
                 print(f"{Fore.RED}Captcha failed - skipping faucet and email binding{Style.RESET_ALL}")
                 email = generate_random_email()
             
-            # Save account info
+            
             self.save_account_info(email, pk, tx_hash)
             
-            # Delay between accounts
+            
             if i < num_accounts - 1:
                 print(f"{Fore.YELLOW}Waiting 3 seconds before next account...{Style.RESET_ALL}")
                 time.sleep(3)
@@ -2214,7 +2044,7 @@ class PolariseFaucetBot:
             "nonce": nonce,
             "wallet": wallet_address.lower(),
             "sid": SID,
-            "inviter_code": "2BHlBH"
+            "inviter_code": "rUcOC9"
         }
         
         try:
@@ -2310,7 +2140,7 @@ class PolariseFaucetBot:
                 'authorization': f'Bearer {auth_token} {sid} {wallet_address} polarise'
             }
             
-            # Generate extra info for faucet task
+            
             extra_info = json.dumps({
                 "tx_hash": tx_hash,
                 "from": wallet_address,
@@ -2320,7 +2150,7 @@ class PolariseFaucetBot:
             
             data = {
                 "user_wallet": wallet_address.lower(),
-                "task_id": 1,  # Faucet task ID
+                "task_id": 1,  
                 "extra_info": extra_info,
                 "chain_name": "polarise"
             }
@@ -2361,7 +2191,7 @@ class PolariseFaucetBot:
             
             print(f"{Fore.CYAN}Address: {address}{Style.RESET_ALL}")
             
-            # Login first to get auth token
+            
             print(f"{Fore.CYAN}Logging in...{Style.RESET_ALL}")
             auth_token, sid = self.login(private_key, address)
             
@@ -2369,7 +2199,7 @@ class PolariseFaucetBot:
                 print(f"{Fore.RED}Login failed - skipping{Style.RESET_ALL}")
                 continue
             
-            # Solve captcha
+            
             captcha = None
             for attempt in range(1, 4):
                 captcha = self.solve_captcha()
@@ -2381,21 +2211,21 @@ class PolariseFaucetBot:
                 print(f"{Fore.RED}Captcha failed - skipping{Style.RESET_ALL}")
                 continue
             
-            # Claim faucet
+            
             tx_hash = self.claim_faucet(address, captcha)
             
             if tx_hash:
-                # Complete faucet task
+                
                 print(f"{Fore.CYAN}Completing faucet task...{Style.RESET_ALL}")
                 self.complete_faucet_task(address, auth_token, sid, tx_hash)
                 print(f"{Fore.GREEN}Faucet process completed for {address}{Style.RESET_ALL}")
             else:
                 print(f"{Fore.RED}Faucet failed for {address}{Style.RESET_ALL}")
             
-            # Delay between accounts
+            
             if idx < len(accounts):
-                print(f"{Fore.YELLOW}Waiting 10 seconds before next account...{Style.RESET_ALL}")
-                time.sleep(10)
+                print(f"{Fore.YELLOW}Waiting 3 seconds before next account...{Style.RESET_ALL}")
+                time.sleep(3)
         
         print(f"\n{Fore.GREEN}Faucet claim process completed!{Style.RESET_ALL}")
 
